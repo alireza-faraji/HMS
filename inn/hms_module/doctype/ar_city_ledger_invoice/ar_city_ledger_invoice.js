@@ -8,10 +8,10 @@ frappe.ui.form.on('AR City Ledger Invoice', {
 		filter_folio(frm);
 		make_payment_visibility(frm);
 	},
-	inn_channel: function (frm) {
+	hms_channel: function (frm) {
 		filter_folio(frm);
 	},
-	inn_group: function (frm) {
+	hms_group: function (frm) {
 		filter_folio(frm);
 	},
 	customer_id: function (frm) {
@@ -78,8 +78,8 @@ frappe.ui.form.on('AR City Ledger Invoice Payments', {
 });
 function filter_folio(frm) {
 	let field = frm.fields_dict['folio'].grid.fields_map['folio_id'];
-	let channel = frm.doc.inn_channel;
-	let group = frm.doc.inn_group;
+	let channel = frm.doc.hms_channel;
+	let group = frm.doc.hms_group;
 	let customer_id = frm.doc.customer_id;
 	frappe.call({
 		method: 'inn.hms_module.doctype.ar_city_ledger.ar_city_ledger.get_folio_from_ar_city_ledger',
@@ -94,7 +94,7 @@ function filter_folio(frm) {
 				field.get_query = function () {
 					return {
 						filters: [
-							['Inn Folio', 'name', 'in', r.message]
+							['HMS Folio', 'name', 'in', r.message]
 						]
 					}
 				}
@@ -213,8 +213,8 @@ function disable_form(frm) {
 	frm.disable_save();
 	frm.set_df_property('issued_date', 'read_only', 1);
 	frm.set_df_property('due_date', 'read_only', 1);
-	frm.set_df_property('inn_channel', 'read_only', 1);
-	frm.set_df_property('inn_group', 'read_only', 1);
+	frm.set_df_property('hms_channel', 'read_only', 1);
+	frm.set_df_property('hms_group', 'read_only', 1);
 	frm.set_df_property('customer_id', 'read_only', 1);
 	frm.get_field("folio").grid.only_sortable();
 	frappe.meta.get_docfield('AR City Ledger Invoice Folio', 'folio_id', frm.doc.name).read_only = 1;

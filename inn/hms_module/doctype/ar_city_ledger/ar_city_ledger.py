@@ -15,9 +15,9 @@ def get_folio_from_ar_city_ledger(selector = None, channel = None, group = None,
 	return_list = []
 	folio_list = []
 	if channel:
-		filters.append(['inn_channel_id', '=', channel])
+		filters.append(['hms_channel_id', '=', channel])
 	if group:
-		filters.append(['inn_group_id', '=', group])
+		filters.append(['hms_group_id', '=', group])
 	# if customer_id:
 	# 	filters.append(['customer_id', '=', customer_id])
 

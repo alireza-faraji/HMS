@@ -85,17 +85,17 @@ doc_events = {
 	# 		"on_cancel": "method",
 	# 		"on_trash": "method"
 	# }
-	"Inn Tax": {
-		"validate": "inn.hms_module.doctype.inn_tax.inn_tax.autofill_inn_tax_value"
+	"HMS Tax": {
+		"validate": "inn.hms_module.doctype.hms_tax.hms_tax.autofill_hms_tax_value"
 	},
-	"Inn Room Rate": {
-		"validate": "inn.hms_module.doctype.inn_room_rate.inn_room_rate.calculate_total_amount"
+	"HMS Room Rate": {
+		"validate": "inn.hms_module.doctype.hms_room_rate.hms_room_rate.calculate_total_amount"
 	},
-	"Inn Room": {
-		"validate": "inn.hms_module.doctype.inn_room.inn_room.calculate_total_amenities_cost"
+	"HMS Room": {
+		"validate": "inn.hms_module.doctype.hms_room.hms_room.calculate_total_amenities_cost"
 	},
-	"Inn Folio Transaction": {
-		"validate": "inn.hms_module.doctype.inn_folio_transaction.inn_folio_transaction.add_audit_date"
+	"HMS Folio Transaction": {
+		"validate": "inn.hms_module.doctype.hms_folio_transaction.hms_folio_transaction.add_audit_date"
 	},
 }
 
@@ -134,7 +134,7 @@ scheduler_events = {
 
 jenv = {
 	"methods": [
-		"get_total_deposit:inn.hms_module.doctype.inn_reservation.inn_reservation.get_total_deposit",
-		"get_date:inn.hms_module.doctype.inn_reservation.inn_reservation.get_date"
+		"get_total_deposit:inn.hms_module.doctype.hms_reservation.hms_reservation.get_total_deposit",
+		"get_date:inn.hms_module.doctype.hms_reservation.hms_reservation.get_date"
 	]
 }

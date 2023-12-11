@@ -1,7 +1,7 @@
 // Copyright (c) 2020, Core Initiative and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Inn Bed Type', {
+frappe.ui.form.on('HMS Bed Type', {
 	refresh: function(frm) {
 
 	}

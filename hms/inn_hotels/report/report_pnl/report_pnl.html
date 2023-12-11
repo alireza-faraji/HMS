@@ -1,0 +1,269 @@
+<h3 class="text-left">{%= __("HOTEL DAILY INN") %}</h3>
+
+<p class="text-left">{%= __("Jl. Jenderal Ahmad Yani Kavling 67 Cempaka Putih Timur, Jakarta Pusat") %}</p>
+<p class="text-left">{%= __("Jakarta Indonesia. 10510") %}</p>
+<p class="text-left">{%= __("Phone: 021-21473999 Fax: 021-21473998") %}</p>
+
+<hr>
+
+<h3 class="text-center">{%= __("Profit and Loss") %}</h3>
+
+<h5 class="text-center">
+	{%= frappe.datetime.str_to_user(filters.date) %}
+</h5>
+
+<table class="table">
+    {% var r_cm = 0 %}
+    {% var r_lm = 0 %}
+    {% var r_yd = 0 %}
+
+    {% var cos_cm = 0 %}
+    {% var cos_lm = 0 %}
+    {% var cos_yd = 0 %}
+
+    {% var ep_cm = 0 %}
+    {% var ep_lm = 0 %}
+    {% var ep_yd = 0 %}
+
+    {% var e_cm = 0 %}
+    {% var e_lm = 0 %}
+    {% var e_yd = 0 %}
+
+    {% for(var i=0, l=data.length-1; i<l; i++) { %}
+        {% if (data[i].indent == 2.0 && (data[i].current_month != 0 || data[i].last_month != 0 || data[i].year_to_date != 0)) { %}
+            {% if (data[i].account.substr(0, 1) == 4) { %}
+                {% var r_cm = r_cm + data[i].current_month %}
+                {% var r_lm = r_lm + data[i].last_month %}
+                {% var r_yd = r_yd + data[i].year_to_date %}
+            {% } %}
+
+            {% if (data[i].account.substr(0, 1) == 5) { %}
+                {% var cos_cm = cos_cm + data[i].current_month %}
+                {% var cos_lm = cos_lm + data[i].last_month %}
+                {% var cos_yd = cos_yd + data[i].year_to_date %}
+            {% } %}
+
+            {% if (data[i].account.substr(0, 1) == 6) { %}
+                {% var ep_cm = ep_cm + data[i].current_month %}
+                {% var ep_lm = ep_lm + data[i].last_month %}
+                {% var ep_yd = ep_yd + data[i].year_to_date %}
+            {% } %}
+
+            {% if (data[i].account.substr(0, 1) == 7) { %}
+                {% var e_cm = e_cm + data[i].current_month %}
+                {% var e_lm = e_lm + data[i].last_month %}
+                {% var e_yd = e_yd + data[i].year_to_date %}
+            {% } %}
+        {% } %}
+    {% } %}
+
+	<thead>
+		<tr>
+			<th style="width: 40%;">{%= __("Account") %}</th>
+			<th style="width: 20%;">{%= __("Current Month") %}</th>
+			<th style="width: 20%;">{%= __("Last Month") %}</th>
+			<th style="width: 20%;">{%= __("Year to Date") %}</th>
+		</tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td><b>{%= __("Summary") %}</b></td>
+            <td></td><td></td><td></td>
+        </tr>
+
+        <tr>
+            <td><b>{%= __("Total Revenue") %}</b></td>        
+            <td><b>{%= format_currency(r_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(r_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(r_yd, "IDR") %}</b></td>
+        </tr>
+    
+        <tr>
+            <td><b>{%= __("Total Cost of Sales") %}</b></td>
+            <td><b>{%= format_currency(cos_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(cos_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(cos_yd, "IDR") %}</b></td>
+        </tr>
+    
+        <tr>
+            <td><b>{%= __("Total Employee and Payroll") %}</b></td>
+            <td><b>{%= format_currency(ep_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(ep_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(ep_yd, "IDR") %}</b></td>
+        </tr>
+
+        {% var gop_cm = r_cm - cos_cm - ep_cm %}
+        {% var gop_lm = r_lm - cos_lm - ep_lm %}
+        {% var gop_yd = r_yd - cos_yd - ep_yd %}
+
+        <tr>
+            <td><b>{%= __("Gross Operating Profit (GOP)") %}</b></td>
+            <td><b>{%= format_currency(gop_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(gop_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(gop_yd, "IDR") %}</b></td>
+        </tr>
+        
+        <tr>
+            <td><b>{%= __("Total Expense") %}</b></td>
+            <td><b>{%= format_currency(e_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(e_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(e_yd, "IDR") %}</b></td>
+        </tr>
+
+        {% var nop_cm = gop_cm - e_cm %}
+        {% var nop_lm = gop_lm - e_lm %}
+        {% var nop_yd = gop_yd - e_yd %}
+
+        <tr>
+            <td><b>{%= __("Net Operating Profit (NOP)") %}</b></td>
+            <td><b>{%= format_currency(nop_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(nop_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(nop_yd, "IDR") %}</b></td>
+        </tr>
+
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+
+        <tr>
+            <td><b>{%= __("Revenue") %}</b></td>    
+            <td></td><td></td><td></td>
+        </tr>
+
+        {% for(var i=0, l=data.length-1; i<l; i++) { %}
+            {% if (data[i].indent == 2.0 && (data[i].current_month != 0 || data[i].last_month != 0 || data[i].year_to_date != 0)) { %}
+                {% if (data[i].account.substr(0, 1) == 4) { %}
+                    <tr>
+                        <td>{%= data[i].account %}</td>
+                        <td>{%= format_currency(data[i].current_month, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].last_month, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].year_to_date, "IDR") %}</td>
+                    </tr>
+                {% } %}
+            {% } %}
+        {% } %}
+
+        <tr>
+            <td><b>{%= __("Total Revenue") %}</b></td>
+            <td><b>{%= format_currency(r_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(r_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(r_yd, "IDR") %}</b></td>
+        </tr>
+
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+
+        <tr>
+            <td><b>{%= __("Cost of Sales") %}</b></td>    
+            <td></td><td></td><td></td>
+        </tr>
+
+        {% for(var i=0, l=data.length-1; i<l; i++) { %}
+            {% if (data[i].indent == 2.0 && (data[i].current_month != 0 || data[i].last_month != 0 || data[i].year_to_date != 0)) { %}
+                {% if (data[i].account.substr(0, 1) == 5) { %}
+                    <tr>
+                        <td>{%= data[i].account %}</td>
+                        <td>{%= format_currency(data[i].current_month, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].last_month, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].year_to_date, "IDR") %}</td>
+                    </tr>
+                {% } %}
+            {% } %}
+        {% } %}
+
+        <tr>
+            <td><b>{%= __("Total Cost of Sales") %}</b></td>
+            <td><b>{%= format_currency(cos_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(cos_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(cos_yd, "IDR") %}</b></td>
+        </tr>
+        
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+
+        <tr>
+            <td><b>{%= __("Employee and Payroll") %}</b></td>    
+            <td></td><td></td><td></td>
+        </tr>
+
+        {% for(var i=0, l=data.length-1; i<l; i++) { %}
+            {% if (data[i].indent == 2.0 && (data[i].current_month != 0 || data[i].last_month != 0 || data[i].year_to_date != 0)) { %}
+                {% if (data[i].account.substr(0, 1) == 6) { %}
+                    <tr>
+                        <td>{%= data[i].account %}</td>
+                        <td>{%= format_currency(data[i].current_month, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].last_month, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].year_to_date, "IDR") %}</td>
+                    </tr>
+                {% } %}
+            {% } %}
+        {% } %}
+
+        <tr>
+            <td><b>{%= __("Total Employee and Payroll") %}</b></td>   
+            <td><b>{%= format_currency(ep_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(ep_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(ep_yd, "IDR") %}</b></td>
+        </tr>
+
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+
+        <tr>
+            <td><b>{%= __("Expense") %}</b></td>    
+            <td></td><td></td><td></td>
+        </tr>
+
+        {% for(var i=0, l=data.length-1; i<l; i++) { %}
+            {% if (data[i].indent == 2.0 && (data[i].current_month != 0 || data[i].last_month != 0 || data[i].year_to_date != 0)) { %}
+                {% if (data[i].account.substr(0, 1) == 7) { %}
+                    <tr>
+                        <td>{%= data[i].account %}</td>
+                        <td>{%= format_currency(data[i].current_month, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].last_month, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].year_to_date, "IDR") %}</td>
+                    </tr>
+                {% } %}
+            {% } %}
+        {% } %}
+
+        <tr>
+            <td><b>{%= __("Total Expense") %}</b></td>
+            <td><b>{%= format_currency(e_cm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(e_lm, "IDR") %}</b></td>
+            <td><b>{%= format_currency(e_yd, "IDR") %}</b></td>
+        </tr>
+    </tbody>
+</table>
+
+<br /><br />
+
+<div class="col-xs-2"><p class="text-left">{%= __("") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("Jakarta,") %}</p></div>
+<div class="col-xs-1"><p class="text-left">{%= __("") %}</p></div>
+
+<div class="col-xs-2"><p class="text-left">{%= __("") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("Prepared By,") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("Acknowledge By,") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("Approved By,") %}</p></div>
+<div class="col-xs-1"><p class="text-left">{%= __("") %}</p></div>
+
+<br /><br /><br /><br /><br /><br />
+
+<div class="col-xs-2"><p class="text-left">{%= __("") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("_________________") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("_________________") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("_________________") %}</p></div>
+<div class="col-xs-1"><p class="text-left">{%= __("") %}</p></div>
+
+<div class="col-xs-2"><p class="text-left">{%= __("") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("Finance Head") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("") %}</p></div>
+<div class="col-xs-3"><p class="text-left">{%= __("Director") %}</p></div>
+<div class="col-xs-1"><p class="text-left">{%= __("") %}</p></div>

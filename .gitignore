@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+inn/docs/current
+.idea
+.idea/.gitignore
+venv
+.vscode/

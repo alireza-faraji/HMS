@@ -13,7 +13,7 @@ with open('inn/__init__.py', 'rb') as f:
 		f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='hms',
+	name='inn',
 	version=version,
 	description='Apps for handling hotel business',
 	author='Core Initiative',

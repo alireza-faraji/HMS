@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include hms *.css
-recursive-include hms *.csv
-recursive-include hms *.html
-recursive-include hms *.ico
-recursive-include hms *.js
-recursive-include hms *.json
-recursive-include hms *.md
-recursive-include hms *.png
-recursive-include hms *.py
-recursive-include hms *.svg
-recursive-include hms *.txt
-recursive-exclude hms *.pyc
+recursive-include inn *.css
+recursive-include inn *.csv
+recursive-include inn *.html
+recursive-include inn *.ico
+recursive-include inn *.js
+recursive-include inn *.json
+recursive-include inn *.md
+recursive-include inn *.png
+recursive-include inn *.py
+recursive-include inn *.svg
+recursive-include inn *.txt
+recursive-exclude inn *.pyc

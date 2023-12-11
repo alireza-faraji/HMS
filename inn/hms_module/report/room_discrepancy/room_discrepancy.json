@@ -13,7 +13,7 @@
  "name": "Room Discrepancy",
  "owner": "Administrator",
  "prepared_report": 0,
- "ref_doctype": "Inn Room",
+ "ref_doctype": "HMS Room",
  "report_name": "Room Discrepancy",
  "report_type": "Script Report",
  "roles": [

@@ -16,13 +16,13 @@ def execute(filters=None):
             'fieldname': 'room',
             'label': 'Room',
             'fieldtype': 'Link',
-            'options': 'Inn Room',
+            'options': 'HMS Room',
         },
 		{
             'fieldname': 'type',
             'label': 'Type',
             'fieldtype': 'Link',
-            'options': 'Inn Room Type',
+            'options': 'HMS Room Type',
         },
 		{
             'fieldname': 'system_fo',
@@ -45,7 +45,7 @@ def execute(filters=None):
 def get_rooms():
 	return frappe.db.sql("""
 		select number as room, room_type as type, room_status as system_fo
-		from `tabInn Room` order by number""", as_dict=True)
+		from `tabHMS Room` order by number""", as_dict=True)
 
 def get_data():
 	rooms = get_rooms()

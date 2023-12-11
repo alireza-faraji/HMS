@@ -13,8 +13,8 @@
  "name": "GUEST IN HOUSE",
  "owner": "Administrator",
  "prepared_report": 0,
- "query": "Select\n  `tabInn Reservation`.name as \"Reservation:Link/Inn Reservation:120\",\n  `tabInn Reservation`.status as \"Status:Select/Status:100\",\n  `tabInn Reservation`.customer_id as \"Customer:Link/Customer:200\",\n  `tabInn Reservation`.actual_room_id as \"Room:Link/Inn Room:100\",\n  `tabInn Reservation`.room_type as \"Room Type:Data:100\",\n  `tabInn Reservation`.arrival as \"Arrival:Datetime:150\",\n  `tabInn Reservation`.departure as \"Departure:Datetime:120\",\n  `tabCustomer`.mobile_no as \"Phone:Data:150\"\nFrom\n   `tabInn Reservation` Join `tabCustomer` on `tabInn Reservation`.customer_id = `tabCustomer`.name  ",
- "ref_doctype": "Inn Reservation",
+ "query": "Select\n  `tabHMS Reservation`.name as \"Reservation:Link/HMS Reservation:120\",\n  `tabHMS Reservation`.status as \"Status:Select/Status:100\",\n  `tabHMS Reservation`.customer_id as \"Customer:Link/Customer:200\",\n  `tabHMS Reservation`.actual_room_id as \"Room:Link/HMS Room:100\",\n  `tabHMS Reservation`.room_type as \"Room Type:Data:100\",\n  `tabHMS Reservation`.arrival as \"Arrival:Datetime:150\",\n  `tabHMS Reservation`.departure as \"Departure:Datetime:120\",\n  `tabCustomer`.mobile_no as \"Phone:Data:150\"\nFrom\n   `tabHMS Reservation` Join `tabCustomer` on `tabHMS Reservation`.customer_id = `tabCustomer`.name  ",
+ "ref_doctype": "HMS Reservation",
  "report_name": "GUEST IN HOUSE",
  "report_type": "Query Report",
  "roles": [

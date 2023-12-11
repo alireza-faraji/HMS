@@ -53,20 +53,20 @@ def get_total_room():
 			SUM(CASE WHEN rt.name = 'Executive' THEN 1 ELSE 0 END) AS executive,
 			SUM(CASE WHEN rt.name = 'Suite' THEN 1 ELSE 0 END) AS suite,
 			COUNT(*) AS total
-		FROM `tabInn Room` r
-		LEFT JOIN `tabInn Room Type` rt ON r.room_type=rt.name""", as_dict=True)
+		FROM `tabHMS Room` r
+		LEFT JOIN `tabHMS Room Type` rt ON r.room_type=rt.name""", as_dict=True)
 
 def get_room_booking(current_year, next_year):
 	return frappe.db.sql("""
 		select rb.start, rb.end, rb.room_availability, r.room_type, rb.status
-		from `tabInn Room Booking` rb
-		left join `tabInn Room` r on r.name = rb.room_id 
+		from `tabHMS Room Booking` rb
+		left join `tabHMS Room` r on r.name = rb.room_id 
 		where end>=%s and start<%s""", (current_year, next_year), as_dict=True)
 
 def get_reservation(current_year, next_year):
 	return frappe.db.sql("""
 		select arrival, departure, status, channel, actual_room_rate
-		from `tabInn Reservation`
+		from `tabHMS Reservation`
 		where departure>=%s and arrival<%s""", (current_year, next_year), as_dict=True)
 
 def get_gl_entry(current_year, next_year):
@@ -78,7 +78,7 @@ def get_gl_entry(current_year, next_year):
 def get_folio_transaction(current_year, next_year):
 	return frappe.db.sql("""
         select audit_date, amount, mode_of_payment
-        from `tabInn Folio Transaction`
+        from `tabHMS Folio Transaction`
         where flag='Credit' and audit_date>=%s and audit_date<%s""", (current_year, next_year), as_dict=True)
 
 def get_mode_of_payment():

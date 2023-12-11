@@ -17,7 +17,7 @@ setup(
 	version=version,
 	description='Apps for handling hotel business',
 	author='Core Initiative',
-	author_email='eng.alirezafaraji@gmail.com,
+	author_email='eng.alirezafaraji@gmail.com',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

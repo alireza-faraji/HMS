@@ -10,12 +10,12 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Inn Reservation",
-					"description": _("Reservations for Inn Hotels")
+					"description": _("Reservations for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Folio",
-					"description": _("Folios for Inn Hotels")
+					"description": _("Folios for Hms Module")
 				},
 				{
 					"type": "doctype",
@@ -25,12 +25,12 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Inn Shift",
-					"description": _("Shift for Inn Hotels")
+					"description": _("Shift for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Void Folio Transaction",
-					"description": _("List of Request to Void an Inn Folio Transaction for Inn Hotels")
+					"description": _("List of Request to Void an Inn Folio Transaction for Hms Module")
 				},
 				{
 					"type": "doctype",
@@ -45,17 +45,17 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Inn Room Charge Posting",
-					"description": _("Room Charge Posting for Inn Hotels")
+					"description": _("Room Charge Posting for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Dayend Close",
-					"description": _("Dayend Closing for Inn Hotels")
+					"description": _("Dayend Closing for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Audit Log",
-					"description": _("Audit Log for Inn Hotels")
+					"description": _("Audit Log for Hms Module")
 				},
 			]
 		},
@@ -65,37 +65,37 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Inn Lost and Found",
-					"description": _("Lost and Found for Inn Hotels")
+					"description": _("Lost and Found for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Room",
-					"description": _("Room for Inn Hotels")
+					"description": _("Room for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Room Availability Page",
-					"description": _("Room Availability for Inn Hotels")
+					"description": _("Room Availability for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Room Type Availability Page",
-					"description": _("Room Type Availability for Inn Hotels")
+					"description": _("Room Type Availability for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Floor Plan",
-					"description": _("Floor Plan for Inn Hotels")
+					"description": _("Floor Plan for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Amenities",
-					"description": _("Amenities for Inn Hotels")
+					"description": _("Amenities for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Amenities Type",
-					"description": _("Amenities Type for Inn Hotels")
+					"description": _("Amenities Type for Hms Module")
 				},
 			]
 		},
@@ -105,27 +105,27 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Inn Bed Type",
-					"description": _("Master Data Bed Type for Inn Hotels")
+					"description": _("Master Data Bed Type for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Room Type",
-					"description": _("Master Data Room Type for Inn Hotels")
+					"description": _("Master Data Room Type for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Room",
-					"description": _("Master Data Room for Inn Hotels")
+					"description": _("Master Data Room for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Channel",
-					"description": _("Master Data Channel for Inn Hotels")
+					"description": _("Master Data Channel for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Group",
-					"description": _("Master Data Group for Inn Hotels")
+					"description": _("Master Data Group for Hms Module")
 				},
 			]
 		},
@@ -135,12 +135,12 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "AR City Ledger",
-					"description": _("AR City Ledger for Inn Hotels")
+					"description": _("AR City Ledger for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "AR City Ledger Invoice",
-					"description": _("AR City Ledger Invoice for Inn Hotels")
+					"description": _("AR City Ledger Invoice for Hms Module")
 				},
 			]
 		},
@@ -150,22 +150,22 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Inn Tax",
-					"description": _("Tax for Inn Hotels")
+					"description": _("Tax for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Package",
-					"description": _("Package for Inn Hotels")
+					"description": _("Package for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Room Rate",
-					"description": _("Room Rate for Inn Hotels")
+					"description": _("Room Rate for Hms Module")
 				},
 				{
 					"type": "doctype",
 					"name": "Inn Folio Transaction Type",
-					"description": _("Folio Transaction Type for Inn Hotels")
+					"description": _("Folio Transaction Type for Hms Module")
 				},
 			]
 		},
@@ -174,8 +174,8 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Inn Hotels Setting",
-					"description": _("Hotel Settings for Inn Hotels")
+					"name": "Hms Module Setting",
+					"description": _("Hotel Settings for Hms Module")
 				},
 			]
 		},

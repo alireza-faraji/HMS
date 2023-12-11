@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "inn"
-app_title = "Inn Hotels"
+app_title = "Hms Module"
 app_publisher = "Core Initiative"
 app_description = "Apps for handling hotel business"
 app_icon = "octicon octicon-book"
@@ -86,16 +86,16 @@ doc_events = {
 	# 		"on_trash": "method"
 	# }
 	"Inn Tax": {
-		"validate": "inn.inn_hotels.doctype.inn_tax.inn_tax.autofill_inn_tax_value"
+		"validate": "inn.hms_module.doctype.inn_tax.inn_tax.autofill_inn_tax_value"
 	},
 	"Inn Room Rate": {
-		"validate": "inn.inn_hotels.doctype.inn_room_rate.inn_room_rate.calculate_total_amount"
+		"validate": "inn.hms_module.doctype.inn_room_rate.inn_room_rate.calculate_total_amount"
 	},
 	"Inn Room": {
-		"validate": "inn.inn_hotels.doctype.inn_room.inn_room.calculate_total_amenities_cost"
+		"validate": "inn.hms_module.doctype.inn_room.inn_room.calculate_total_amenities_cost"
 	},
 	"Inn Folio Transaction": {
-		"validate": "inn.inn_hotels.doctype.inn_folio_transaction.inn_folio_transaction.add_audit_date"
+		"validate": "inn.hms_module.doctype.inn_folio_transaction.inn_folio_transaction.add_audit_date"
 	},
 }
 
@@ -113,7 +113,7 @@ scheduler_events = {
 # 		"inn.tasks.hourly"
 # 	],
 	"weekly": [
-		"inn.inn_hotels.doctype.inn_hotels_setting.inn_hotels_setting.generate_supervisor_passcode"
+		"inn.hms_module.doctype.hms_module_setting.hms_module_setting.generate_supervisor_passcode"
 	]
 # 	"monthly": [
 # 		"inn.tasks.monthly"
@@ -134,7 +134,7 @@ scheduler_events = {
 
 jenv = {
 	"methods": [
-		"get_total_deposit:inn.inn_hotels.doctype.inn_reservation.inn_reservation.get_total_deposit",
-		"get_date:inn.inn_hotels.doctype.inn_reservation.inn_reservation.get_date"
+		"get_total_deposit:inn.hms_module.doctype.inn_reservation.inn_reservation.get_total_deposit",
+		"get_date:inn.hms_module.doctype.inn_reservation.inn_reservation.get_date"
 	]
 }

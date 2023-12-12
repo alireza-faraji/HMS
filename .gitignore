@@ -3,7 +3,7 @@
 *.egg-info
 *.swp
 tags
-inn/docs/current
+hms/docs/current
 .idea
 .idea/.gitignore
 venv

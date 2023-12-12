@@ -110,7 +110,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-12-11 10:41:43.849747",
+ "modified": "2023-12-12 08:25:22.727495",
  "modified_by": "Administrator",
  "module": "Hms Module",
  "name": "Hotel Management System",
@@ -126,7 +126,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "POS Restaurant",
-   "link_to": "restaurant-manage",
+   "link_to": "bom-comparison-tool",
    "type": "Page"
   }
  ],

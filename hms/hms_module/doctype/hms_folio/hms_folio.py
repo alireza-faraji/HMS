@@ -10,7 +10,7 @@ import json
 import datetime
 from frappe.model.document import Document
 
-class hmsFolio(Document):
+class HMSFolio(Document):
 	pass
 
 @frappe.whitelist()

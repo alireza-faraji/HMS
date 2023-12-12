@@ -11,7 +11,7 @@ import datetime
 from dateutil.relativedelta import relativedelta
 from frappe.model.document import Document
 
-class hmsMembershipCard(Document):
+class HMSMembershipCard(Document):
 	pass
 
 def generate_card_number():

@@ -9,7 +9,7 @@ from datetime import datetime
 import frappe
 from frappe.model.document import Document
 
-class hmsShift(Document):
+class HMSShift(Document):
 	pass
 
 @frappe.whitelist()

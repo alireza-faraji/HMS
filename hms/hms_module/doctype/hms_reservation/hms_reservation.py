@@ -11,7 +11,7 @@ import string
 from frappe.model.document import Document
 from hms.hms_module.doctype.hms_folio.hms_folio import close_folio, get_balance_by_reservation
 
-class hmsReservation(Document):
+class HMSReservation(Document):
 	pass
 
 @frappe.whitelist()

@@ -9,7 +9,7 @@ import frappe
 from frappe.model.document import Document
 from hms.hms_module.doctype.hms_tax.hms_tax import calculate_hms_tax_and_charges
 
-class hmsPackage(Document):
+class HMSPackage(Document):
 	pass
 
 @frappe.whitelist()

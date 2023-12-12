@@ -11,7 +11,7 @@ from hms.hms_module.doctype.hms_audit_log.hms_audit_log import get_last_audit_da
 from hms.hms_module.doctype.hms_folio_transaction_bundle.hms_folio_transaction_bundle import get_trx_list
 from frappe.model.document import Document
 
-class hmsFolioTransaction(Document):
+class HMSFolioTransaction(Document):
 	pass
 
 @frappe.whitelist()

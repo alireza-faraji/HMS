@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class hmsExpectedClosedToday(Document):
+class HMSExpectedClosedToday(Document):
 	pass

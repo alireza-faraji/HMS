@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-class TesthmsFloorPlan(unittest.TestCase):
+class TestHMSFloorPlan(unittest.TestCase):
 	pass

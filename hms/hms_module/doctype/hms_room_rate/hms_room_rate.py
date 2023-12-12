@@ -9,7 +9,7 @@ from frappe.model.document import Document
 from hms.hms_module.doctype.hms_tax.hms_tax import calculate_hms_tax_and_charges
 
 
-class hmsRoomRate(Document):
+class HMSRoomRate(Document):
 	pass
 
 def calculate_total_amount(doc, method):

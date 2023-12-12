@@ -9,7 +9,7 @@ QUnit.test("test: HMS Room Availability Page", function (assert) {
 	assert.expect(1);
 
 	frappe.run_serially([
-		// insert a new HMS Room Availability Page
+		// insert a new HMS Room Availability Page2
 		() => frappe.tests.make('HMS Room Availability Page', [
 			// values to be set
 			{key: 'value'}

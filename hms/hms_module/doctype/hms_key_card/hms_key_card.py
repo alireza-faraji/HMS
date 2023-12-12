@@ -11,7 +11,7 @@ import requests
 import json
 from frappe.model.document import Document
 
-class hmsKeyCard(Document):
+class HMSKeyCard(Document):
 	pass
 
 @frappe.whitelist()

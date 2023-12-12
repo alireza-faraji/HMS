@@ -9,7 +9,7 @@ import frappe
 from frappe.model.document import Document
 
 
-class hmsRoom(Document):
+class HMSRoom(Document):
 	pass
 
 

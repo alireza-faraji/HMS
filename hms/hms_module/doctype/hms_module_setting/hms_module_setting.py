@@ -12,7 +12,7 @@ from frappe.desk.page.setup_wizard.setup_wizard import make_records
 from erpnext.accounts.doctype.account.account import update_account_number
 from hms.hms_module.doctype.hms_module_setting.setting_data import get_account
 
-class hmsModuleSetting(Document):
+class HMSModuleSetting(Document):
 	pass
 
 @frappe.whitelist()

@@ -9,7 +9,7 @@ from frappe.model.document import Document
 from hms.hms_module.doctype.hms_room_rate.hms_room_rate import get_actual_room_rate_breakdown
 
 
-class hmsMoveRoom(Document):
+class HMSMoveRoom(Document):
 	pass
 
 

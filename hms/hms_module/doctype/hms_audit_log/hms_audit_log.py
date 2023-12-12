@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class hmsAuditLog(Document):
+class HMSAuditLog(Document):
 	pass
 
 @frappe.whitelist()

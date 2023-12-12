@@ -14,7 +14,7 @@ from hms.hms_module.doctype.hms_folio_transaction.hms_folio_transaction import g
 from hms.hms_module.doctype.hms_audit_log.hms_audit_log import get_last_audit_date
 from hms.hms_module.doctype.hms_tax.hms_tax import calculate_hms_tax_and_charges
 
-class hmsRoomChargePosting(Document):
+class HMSRoomChargePosting(Document):
 	pass
 
 @frappe.whitelist()

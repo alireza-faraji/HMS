@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-class TesthmsModuleSetting(unittest.TestCase):
+class TestHMSModuleSetting(unittest.TestCase):
 	pass

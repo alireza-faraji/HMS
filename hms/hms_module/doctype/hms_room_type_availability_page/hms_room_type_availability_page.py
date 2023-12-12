@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class hmsRoomTypeAvailabilityPage(Document):
+class HMSRoomTypeAvailabilityPage(Document):
 	pass
 @frappe.whitelist()
 def get_room_type_availability(room_type, date):

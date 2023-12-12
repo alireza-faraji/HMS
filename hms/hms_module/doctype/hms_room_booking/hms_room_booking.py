@@ -8,7 +8,7 @@ from frappe.model.document import Document
 from hms.hms_module.doctype.hms_folio.hms_folio import update_close_by_reservation
 
 
-class hmsRoomBooking(Document):
+class HMSRoomBooking(Document):
 	pass
 
 

@@ -9,7 +9,7 @@ from hms.hms_module.doctype.hms_folio_transaction_bundle.hms_folio_transaction_b
 from hms.hms_module.doctype.hms_room_charge_posting.hms_room_charge_posting import calculate_already_posted_total, populate_tobe_posted
 from frappe.model.document import Document
 
-class hmsVoidFolioTransaction(Document):
+class HMSVoidFolioTransaction(Document):
 	pass
 
 @frappe.whitelist()

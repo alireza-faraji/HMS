@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-class TesthmsKeyCard(unittest.TestCase):
+class TestHMSKeyCard(unittest.TestCase):
 	pass

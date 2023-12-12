@@ -7,7 +7,7 @@ import frappe
 from frappe import _, msgprint, throw
 from frappe.model.document import Document
 
-class hmsPaymentwithSettlement(Document):
+class HMSPaymentwithSettlement(Document):
 	pass
 
 def get_all_mode_of_payment_settlement():

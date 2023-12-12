@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-class TesthmsFolioTransactionType(unittest.TestCase):
+class TestHMSFolioTransactionType(unittest.TestCase):
 	pass

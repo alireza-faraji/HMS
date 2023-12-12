@@ -10,7 +10,7 @@ from frappe.model.document import Document
 from hms.hms_module.doctype.hms_audit_log.hms_audit_log import get_last_audit_date
 from hms.hms_module.doctype.hms_folio.hms_folio import check_void_request
 
-class hmsDayendClose(Document):
+class HMSDayendClose(Document):
 	pass
 
 @frappe.whitelist()

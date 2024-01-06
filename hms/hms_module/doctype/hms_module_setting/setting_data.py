@@ -5,7 +5,7 @@ def get_account():
 			"parent_number": "",
 			"account_number": "1000.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -14,7 +14,7 @@ def get_account():
 			"parent_number": "1000.000",
 			"account_number": "1100.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -23,7 +23,7 @@ def get_account():
 			"parent_number": "1100.000",
 			"account_number": "1110.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -32,7 +32,7 @@ def get_account():
 			"parent_number": "1110.000",
 			"account_number": "1111.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cash",
 			"root_type": "Asset"
 		},
@@ -41,7 +41,7 @@ def get_account():
 			"parent_number": "1111.000",
 			"account_number": "1111.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cash",
 			"root_type": "Asset"
 		},
@@ -50,7 +50,7 @@ def get_account():
 			"parent_number": "1111.000",
 			"account_number": "1111.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cash",
 			"root_type": "Asset"
 		},
@@ -59,7 +59,7 @@ def get_account():
 			"parent_number": "1111.000",
 			"account_number": "1111.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cash",
 			"root_type": "Asset"
 		},
@@ -68,7 +68,7 @@ def get_account():
 			"parent_number": "1110.000",
 			"account_number": "1112.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -77,7 +77,7 @@ def get_account():
 			"parent_number": "1112.000",
 			"account_number": "1112.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cash",
 			"root_type": "Asset"
 		},
@@ -86,7 +86,7 @@ def get_account():
 			"parent_number": "1110.000",
 			"account_number": "1113.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cash",
 			"root_type": "Asset"
 		},
@@ -95,7 +95,7 @@ def get_account():
 			"parent_number": "1100.000",
 			"account_number": "1120.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -104,7 +104,7 @@ def get_account():
 			"parent_number": "1120.000",
 			"account_number": "1121.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -113,7 +113,7 @@ def get_account():
 			"parent_number": "1121.000",
 			"account_number": "1121.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -122,7 +122,7 @@ def get_account():
 			"parent_number": "1121.000",
 			"account_number": "1121.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -131,7 +131,7 @@ def get_account():
 			"parent_number": "1121.000",
 			"account_number": "1121.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -140,7 +140,7 @@ def get_account():
 			"parent_number": "1121.000",
 			"account_number": "1121.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -149,7 +149,7 @@ def get_account():
 			"parent_number": "1121.000",
 			"account_number": "1121.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -158,7 +158,7 @@ def get_account():
 			"parent_number": "1121.000",
 			"account_number": "1121.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -167,7 +167,7 @@ def get_account():
 			"parent_number": "1120.000",
 			"account_number": "1122.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -176,7 +176,7 @@ def get_account():
 			"parent_number": "1100.000",
 			"account_number": "1130.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -185,7 +185,7 @@ def get_account():
 			"parent_number": "1130.000",
 			"account_number": "1131.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -194,7 +194,7 @@ def get_account():
 			"parent_number": "1131.000",
 			"account_number": "1131.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -203,7 +203,7 @@ def get_account():
 			"parent_number": "1131.000",
 			"account_number": "1131.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -212,7 +212,7 @@ def get_account():
 			"parent_number": "1131.000",
 			"account_number": "1131.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -221,7 +221,7 @@ def get_account():
 			"parent_number": "1131.000",
 			"account_number": "1131.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -230,7 +230,7 @@ def get_account():
 			"parent_number": "1131.000",
 			"account_number": "1131.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -239,7 +239,7 @@ def get_account():
 			"parent_number": "1130.000",
 			"account_number": "1132.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -248,7 +248,7 @@ def get_account():
 			"parent_number": "1132.000",
 			"account_number": "1132.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -257,7 +257,7 @@ def get_account():
 			"parent_number": "1132.000",
 			"account_number": "1132.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -266,7 +266,7 @@ def get_account():
 			"parent_number": "1132.000",
 			"account_number": "1132.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -275,7 +275,7 @@ def get_account():
 			"parent_number": "1132.000",
 			"account_number": "1132.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -284,7 +284,7 @@ def get_account():
 			"parent_number": "1132.000",
 			"account_number": "1132.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Asset"
 		},
@@ -293,7 +293,7 @@ def get_account():
 			"parent_number": "1132.000",
 			"account_number": "1132.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -302,7 +302,7 @@ def get_account():
 			"parent_number": "1132.000",
 			"account_number": "1132.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -311,7 +311,7 @@ def get_account():
 			"parent_number": "1132.000",
 			"account_number": "1132.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -320,7 +320,7 @@ def get_account():
 			"parent_number": "1130.000",
 			"account_number": "1133.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -329,7 +329,7 @@ def get_account():
 			"parent_number": "1133.000",
 			"account_number": "1133.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -338,7 +338,7 @@ def get_account():
 			"parent_number": "1133.000",
 			"account_number": "1133.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Receivable",
 			"root_type": "Asset"
 		},
@@ -347,7 +347,7 @@ def get_account():
 			"parent_number": "1133.000",
 			"account_number": "1133.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Receivable",
 			"root_type": "Asset"
 		},
@@ -356,7 +356,7 @@ def get_account():
 			"parent_number": "1100.000",
 			"account_number": "1140.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -365,7 +365,7 @@ def get_account():
 			"parent_number": "1140.000",
 			"account_number": "1141.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Stock",
 			"root_type": "Asset"
 		},
@@ -374,7 +374,7 @@ def get_account():
 			"parent_number": "1141.000",
 			"account_number": "1141.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -383,7 +383,7 @@ def get_account():
 			"parent_number": "1141.000",
 			"account_number": "1141.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Stock",
 			"root_type": "Asset"
 		},
@@ -392,7 +392,7 @@ def get_account():
 			"parent_number": "1141.000",
 			"account_number": "1141.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Stock",
 			"root_type": "Asset"
 		},
@@ -401,7 +401,7 @@ def get_account():
 			"parent_number": "1100.000",
 			"account_number": "1150.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -410,7 +410,7 @@ def get_account():
 			"parent_number": "1150.000",
 			"account_number": "1151.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -419,7 +419,7 @@ def get_account():
 			"parent_number": "1150.000",
 			"account_number": "1152.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -428,7 +428,7 @@ def get_account():
 			"parent_number": "1150.000",
 			"account_number": "1153.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -437,7 +437,7 @@ def get_account():
 			"parent_number": "1100.000",
 			"account_number": "1170.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -446,7 +446,7 @@ def get_account():
 			"parent_number": "1170.000",
 			"account_number": "1171.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Temporary",
 			"root_type": "Asset"
 		},
@@ -455,7 +455,7 @@ def get_account():
 			"parent_number": "1170.000",
 			"account_number": "1172.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -464,7 +464,7 @@ def get_account():
 			"parent_number": "1000.000",
 			"account_number": "1200.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -473,7 +473,7 @@ def get_account():
 			"parent_number": "1200.000",
 			"account_number": "1210.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -482,7 +482,7 @@ def get_account():
 			"parent_number": "1210.000",
 			"account_number": "1211.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -491,7 +491,7 @@ def get_account():
 			"parent_number": "1211.000",
 			"account_number": "1211.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -500,7 +500,7 @@ def get_account():
 			"parent_number": "1211.000",
 			"account_number": "1211.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -509,7 +509,7 @@ def get_account():
 			"parent_number": "1211.000",
 			"account_number": "1211.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -518,7 +518,7 @@ def get_account():
 			"parent_number": "1211.000",
 			"account_number": "1211.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -527,7 +527,7 @@ def get_account():
 			"parent_number": "1211.000",
 			"account_number": "1211.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -536,7 +536,7 @@ def get_account():
 			"parent_number": "1211.000",
 			"account_number": "1211.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -545,7 +545,7 @@ def get_account():
 			"parent_number": "1211.000",
 			"account_number": "1211.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -554,7 +554,7 @@ def get_account():
 			"parent_number": "1211.000",
 			"account_number": "1211.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -563,7 +563,7 @@ def get_account():
 			"parent_number": "1210.000",
 			"account_number": "1212.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -572,7 +572,7 @@ def get_account():
 			"parent_number": "1212.000",
 			"account_number": "1212.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Accumulated Depreciation",
 			"root_type": "Asset"
 		},
@@ -581,7 +581,7 @@ def get_account():
 			"parent_number": "1212.000",
 			"account_number": "1212.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Depreciation",
 			"root_type": "Asset"
 		},
@@ -590,7 +590,7 @@ def get_account():
 			"parent_number": "1212.000",
 			"account_number": "1212.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Depreciation",
 			"root_type": "Asset"
 		},
@@ -599,7 +599,7 @@ def get_account():
 			"parent_number": "1210.000",
 			"account_number": "1213.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -608,7 +608,7 @@ def get_account():
 			"parent_number": "1213.000",
 			"account_number": "1213.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -617,7 +617,7 @@ def get_account():
 			"parent_number": "1213.000",
 			"account_number": "1213.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -626,7 +626,7 @@ def get_account():
 			"parent_number": "1213.000",
 			"account_number": "1213.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -635,7 +635,7 @@ def get_account():
 			"parent_number": "1213.000",
 			"account_number": "1213.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -644,7 +644,7 @@ def get_account():
 			"parent_number": "1213.000",
 			"account_number": "1213.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -653,7 +653,7 @@ def get_account():
 			"parent_number": "1213.000",
 			"account_number": "1213.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -662,7 +662,7 @@ def get_account():
 			"parent_number": "1210.000",
 			"account_number": "1214.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Asset"
 		},
@@ -671,7 +671,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -680,7 +680,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -689,7 +689,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -698,7 +698,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -707,7 +707,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -716,7 +716,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -725,7 +725,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -734,7 +734,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -743,7 +743,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -752,7 +752,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -761,7 +761,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -770,7 +770,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -779,7 +779,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -788,7 +788,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -797,7 +797,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -806,7 +806,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -815,7 +815,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -824,7 +824,7 @@ def get_account():
 			"parent_number": "1214.000",
 			"account_number": "1214.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Fixed Asset",
 			"root_type": "Asset"
 		},
@@ -833,7 +833,7 @@ def get_account():
 			"parent_number": "",
 			"account_number": "2000.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -842,7 +842,7 @@ def get_account():
 			"parent_number": "2000.000",
 			"account_number": "2100.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -851,7 +851,7 @@ def get_account():
 			"parent_number": "2100.000",
 			"account_number": "2110.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -860,7 +860,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Stock Received But Not Billed",
 			"root_type": "Liability"
 		},
@@ -869,7 +869,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -878,7 +878,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -887,7 +887,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -896,7 +896,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -905,7 +905,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -914,7 +914,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -923,7 +923,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -932,7 +932,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -941,7 +941,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -950,7 +950,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -959,7 +959,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -968,7 +968,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -977,7 +977,7 @@ def get_account():
 			"parent_number": "2110.000",
 			"account_number": "2110.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Payable",
 			"root_type": "Liability"
 		},
@@ -986,7 +986,7 @@ def get_account():
 			"parent_number": "2100.000",
 			"account_number": "2120.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -995,7 +995,7 @@ def get_account():
 			"parent_number": "2120.000",
 			"account_number": "2121.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1004,7 +1004,7 @@ def get_account():
 			"parent_number": "2121.000",
 			"account_number": "2121.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Liability"
 		},
@@ -1013,7 +1013,7 @@ def get_account():
 			"parent_number": "2121.000",
 			"account_number": "2121.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1022,7 +1022,7 @@ def get_account():
 			"parent_number": "2100.000",
 			"account_number": "2130.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1031,7 +1031,7 @@ def get_account():
 			"parent_number": "2130.000",
 			"account_number": "2131.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1040,7 +1040,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1049,7 +1049,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.033",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1058,7 +1058,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1067,7 +1067,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1076,7 +1076,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1085,7 +1085,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1094,7 +1094,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1103,7 +1103,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1112,7 +1112,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1121,7 +1121,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1130,7 +1130,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1139,7 +1139,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1148,7 +1148,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1157,7 +1157,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1166,7 +1166,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1175,7 +1175,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1184,7 +1184,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1193,7 +1193,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1202,7 +1202,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1211,7 +1211,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1220,7 +1220,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1229,7 +1229,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1238,7 +1238,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.022",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1247,7 +1247,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.023",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1256,7 +1256,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.024",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1265,7 +1265,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.025",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1274,7 +1274,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.026",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1283,7 +1283,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.027",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1292,7 +1292,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.028",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1301,7 +1301,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.029",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1310,7 +1310,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.030",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1319,7 +1319,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.031",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1328,7 +1328,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.032",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1337,7 +1337,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.034",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1346,7 +1346,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.035",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1355,7 +1355,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.036",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1364,7 +1364,7 @@ def get_account():
 			"parent_number": "2131.000",
 			"account_number": "2131.037",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1373,7 +1373,7 @@ def get_account():
 			"parent_number": "2100.000",
 			"account_number": "2140.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1382,7 +1382,7 @@ def get_account():
 			"parent_number": "2140.000",
 			"account_number": "2141.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Tax",
 			"root_type": "Liability"
 		},
@@ -1391,7 +1391,7 @@ def get_account():
 			"parent_number": "2140.000",
 			"account_number": "2142.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Tax",
 			"root_type": "Liability"
 		},
@@ -1400,7 +1400,7 @@ def get_account():
 			"parent_number": "2000.000",
 			"account_number": "2200.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1409,7 +1409,7 @@ def get_account():
 			"parent_number": "2200.000",
 			"account_number": "2210.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1418,7 +1418,7 @@ def get_account():
 			"parent_number": "2210.000",
 			"account_number": "2211.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1427,7 +1427,7 @@ def get_account():
 			"parent_number": "2211.000",
 			"account_number": "2211.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1436,7 +1436,7 @@ def get_account():
 			"parent_number": "2211.000",
 			"account_number": "2211.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1445,7 +1445,7 @@ def get_account():
 			"parent_number": "2210.000",
 			"account_number": "2212.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1454,7 +1454,7 @@ def get_account():
 			"parent_number": "2212.000",
 			"account_number": "2212.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1463,7 +1463,7 @@ def get_account():
 			"parent_number": "2212.000",
 			"account_number": "2212.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1472,7 +1472,7 @@ def get_account():
 			"parent_number": "2210.000",
 			"account_number": "2213.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1481,7 +1481,7 @@ def get_account():
 			"parent_number": "2213.000",
 			"account_number": "2213.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1490,7 +1490,7 @@ def get_account():
 			"parent_number": "2200.000",
 			"account_number": "2220.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1499,7 +1499,7 @@ def get_account():
 			"parent_number": "2220.000",
 			"account_number": "2221.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1508,7 +1508,7 @@ def get_account():
 			"parent_number": "2221.000",
 			"account_number": "2221.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1517,7 +1517,7 @@ def get_account():
 			"parent_number": "2200.000",
 			"account_number": "2230.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1526,7 +1526,7 @@ def get_account():
 			"parent_number": "2230.000",
 			"account_number": "2231.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1535,7 +1535,7 @@ def get_account():
 			"parent_number": "2231.000",
 			"account_number": "2231.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1544,7 +1544,7 @@ def get_account():
 			"parent_number": "2231.000",
 			"account_number": "2231.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1553,7 +1553,7 @@ def get_account():
 			"parent_number": "2200.000",
 			"account_number": "2240.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1562,7 +1562,7 @@ def get_account():
 			"parent_number": "2240.000",
 			"account_number": "2241.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1571,7 +1571,7 @@ def get_account():
 			"parent_number": "2241.000",
 			"account_number": "2241.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Liability"
 		},
@@ -1580,7 +1580,7 @@ def get_account():
 			"parent_number": "",
 			"account_number": "3000.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1589,7 +1589,7 @@ def get_account():
 			"parent_number": "3000.000",
 			"account_number": "3100.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1598,7 +1598,7 @@ def get_account():
 			"parent_number": "3100.000",
 			"account_number": "3110.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1607,7 +1607,7 @@ def get_account():
 			"parent_number": "3100.000",
 			"account_number": "3120.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1616,7 +1616,7 @@ def get_account():
 			"parent_number": "3100.000",
 			"account_number": "3130.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1625,7 +1625,7 @@ def get_account():
 			"parent_number": "3100.000",
 			"account_number": "3140.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1634,7 +1634,7 @@ def get_account():
 			"parent_number": "3000.000",
 			"account_number": "3200.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1643,7 +1643,7 @@ def get_account():
 			"parent_number": "3200.000",
 			"account_number": "3210.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1652,7 +1652,7 @@ def get_account():
 			"parent_number": "3200.000",
 			"account_number": "3220.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1661,7 +1661,7 @@ def get_account():
 			"parent_number": "3200.000",
 			"account_number": "3230.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1670,7 +1670,7 @@ def get_account():
 			"parent_number": "3200.000",
 			"account_number": "3240.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Equity"
 		},
@@ -1679,7 +1679,7 @@ def get_account():
 			"parent_number": "",
 			"account_number": "4000.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1688,7 +1688,7 @@ def get_account():
 			"parent_number": "4000.000",
 			"account_number": "4100.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1697,7 +1697,7 @@ def get_account():
 			"parent_number": "4100.000",
 			"account_number": "4110.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1706,7 +1706,7 @@ def get_account():
 			"parent_number": "4110.000",
 			"account_number": "4110.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1715,7 +1715,7 @@ def get_account():
 			"parent_number": "4100.000",
 			"account_number": "4120.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1724,7 +1724,7 @@ def get_account():
 			"parent_number": "4120.000",
 			"account_number": "4120.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1733,7 +1733,7 @@ def get_account():
 			"parent_number": "4120.000",
 			"account_number": "4120.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1742,7 +1742,7 @@ def get_account():
 			"parent_number": "4100.000",
 			"account_number": "4130.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1751,7 +1751,7 @@ def get_account():
 			"parent_number": "4130.000",
 			"account_number": "4130.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1760,7 +1760,7 @@ def get_account():
 			"parent_number": "4130.000",
 			"account_number": "4130.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1769,7 +1769,7 @@ def get_account():
 			"parent_number": "4100.000",
 			"account_number": "4140.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1778,7 +1778,7 @@ def get_account():
 			"parent_number": "4140.000",
 			"account_number": "4140.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1787,7 +1787,7 @@ def get_account():
 			"parent_number": "4140.000",
 			"account_number": "4140.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1796,7 +1796,7 @@ def get_account():
 			"parent_number": "4100.000",
 			"account_number": "4150.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1805,7 +1805,7 @@ def get_account():
 			"parent_number": "4150.000",
 			"account_number": "4150.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1814,7 +1814,7 @@ def get_account():
 			"parent_number": "4150.000",
 			"account_number": "4150.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1823,7 +1823,7 @@ def get_account():
 			"parent_number": "4150.000",
 			"account_number": "4150.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1832,7 +1832,7 @@ def get_account():
 			"parent_number": "4150.000",
 			"account_number": "4150.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1841,7 +1841,7 @@ def get_account():
 			"parent_number": "4150.000",
 			"account_number": "4150.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1850,7 +1850,7 @@ def get_account():
 			"parent_number": "4150.000",
 			"account_number": "4150.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1859,7 +1859,7 @@ def get_account():
 			"parent_number": "4100.000",
 			"account_number": "4160.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1868,7 +1868,7 @@ def get_account():
 			"parent_number": "4000.000",
 			"account_number": "4200.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1877,7 +1877,7 @@ def get_account():
 			"parent_number": "4200.000",
 			"account_number": "4210.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1886,7 +1886,7 @@ def get_account():
 			"parent_number": "4210.000",
 			"account_number": "4210.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1895,7 +1895,7 @@ def get_account():
 			"parent_number": "4200.000",
 			"account_number": "4220.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1904,7 +1904,7 @@ def get_account():
 			"parent_number": "4220.000",
 			"account_number": "4220.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1913,7 +1913,7 @@ def get_account():
 			"parent_number": "4220.000",
 			"account_number": "4220.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1922,7 +1922,7 @@ def get_account():
 			"parent_number": "4200.000",
 			"account_number": "4230.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1931,7 +1931,7 @@ def get_account():
 			"parent_number": "4000.000",
 			"account_number": "4300.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Income"
 		},
@@ -1940,7 +1940,7 @@ def get_account():
 			"parent_number": "4300.000",
 			"account_number": "4300.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1949,7 +1949,7 @@ def get_account():
 			"parent_number": "4300.000",
 			"account_number": "4300.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1958,7 +1958,7 @@ def get_account():
 			"parent_number": "4300.000",
 			"account_number": "4300.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1967,7 +1967,7 @@ def get_account():
 			"parent_number": "4300.000",
 			"account_number": "4300.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Income Account",
 			"root_type": "Income"
 		},
@@ -1976,7 +1976,7 @@ def get_account():
 			"parent_number": "",
 			"account_number": "5000.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -1985,7 +1985,7 @@ def get_account():
 			"parent_number": "5000.000",
 			"account_number": "5100.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -1994,7 +1994,7 @@ def get_account():
 			"parent_number": "5100.000",
 			"account_number": "5110.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cost of Goods Sold",
 			"root_type": "Expense"
 		},
@@ -2003,7 +2003,7 @@ def get_account():
 			"parent_number": "5100.000",
 			"account_number": "5120.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cost of Goods Sold",
 			"root_type": "Expense"
 		},
@@ -2012,7 +2012,7 @@ def get_account():
 			"parent_number": "5100.000",
 			"account_number": "5130.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2021,7 +2021,7 @@ def get_account():
 			"parent_number": "5000.000",
 			"account_number": "5200.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2030,7 +2030,7 @@ def get_account():
 			"parent_number": "5200.000",
 			"account_number": "5210.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2039,7 +2039,7 @@ def get_account():
 			"parent_number": "5210.000",
 			"account_number": "5210.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Cost of Goods Sold",
 			"root_type": "Expense"
 		},
@@ -2048,7 +2048,7 @@ def get_account():
 			"parent_number": "5200.000",
 			"account_number": "5220.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2057,7 +2057,7 @@ def get_account():
 			"parent_number": "5220.000",
 			"account_number": "5220.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2066,7 +2066,7 @@ def get_account():
 			"parent_number": "5200.000",
 			"account_number": "5230.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2075,7 +2075,7 @@ def get_account():
 			"parent_number": "",
 			"account_number": "6000.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2084,7 +2084,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6100.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2093,7 +2093,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6101.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2102,7 +2102,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6102.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Equity",
 			"root_type": "Expense"
 		},
@@ -2111,7 +2111,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6103.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2120,7 +2120,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6104.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2129,7 +2129,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6105.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2138,7 +2138,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6106.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2147,7 +2147,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6107.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2156,7 +2156,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6108.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2165,7 +2165,7 @@ def get_account():
 			"parent_number": "6100.000",
 			"account_number": "6109.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2174,7 +2174,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6200.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2183,7 +2183,7 @@ def get_account():
 			"parent_number": "6200.000",
 			"account_number": "6201.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2192,7 +2192,7 @@ def get_account():
 			"parent_number": "6200.000",
 			"account_number": "6202.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2201,7 +2201,7 @@ def get_account():
 			"parent_number": "6200.000",
 			"account_number": "6203.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2210,7 +2210,7 @@ def get_account():
 			"parent_number": "6200.000",
 			"account_number": "6204.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2219,7 +2219,7 @@ def get_account():
 			"parent_number": "6200.000",
 			"account_number": "6205.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2228,7 +2228,7 @@ def get_account():
 			"parent_number": "6200.000",
 			"account_number": "6206.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2237,7 +2237,7 @@ def get_account():
 			"parent_number": "6200.000",
 			"account_number": "6207.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2246,7 +2246,7 @@ def get_account():
 			"parent_number": "6200.000",
 			"account_number": "6208.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2255,7 +2255,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6920.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2264,7 +2264,7 @@ def get_account():
 			"parent_number": "6920.000",
 			"account_number": "6920.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Bank",
 			"root_type": "Expense"
 		},
@@ -2273,7 +2273,7 @@ def get_account():
 			"parent_number": "6920.000",
 			"account_number": "6920.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2282,7 +2282,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6010.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2291,7 +2291,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2300,7 +2300,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2309,7 +2309,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2318,7 +2318,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2327,7 +2327,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2336,7 +2336,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2345,7 +2345,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2354,7 +2354,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2363,7 +2363,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2372,7 +2372,7 @@ def get_account():
 			"parent_number": "6010.000",
 			"account_number": "6010.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2381,7 +2381,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6020.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2390,7 +2390,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2399,7 +2399,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2408,7 +2408,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2417,7 +2417,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2426,7 +2426,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2435,7 +2435,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2444,7 +2444,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2453,7 +2453,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2462,7 +2462,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2471,7 +2471,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2480,7 +2480,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2489,7 +2489,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2498,7 +2498,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2507,7 +2507,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2516,7 +2516,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2525,7 +2525,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2534,7 +2534,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2543,7 +2543,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2552,7 +2552,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2561,7 +2561,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2570,7 +2570,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2579,7 +2579,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.022",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2588,7 +2588,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.023",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2597,7 +2597,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.024",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2606,7 +2606,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.025",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2615,7 +2615,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.026",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2624,7 +2624,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.027",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2633,7 +2633,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.028",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2642,7 +2642,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.029",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2651,7 +2651,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.030",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2660,7 +2660,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.031",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2669,7 +2669,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.032",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2678,7 +2678,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.033",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2687,7 +2687,7 @@ def get_account():
 			"parent_number": "6020.000",
 			"account_number": "6020.034",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2696,7 +2696,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6110.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2705,7 +2705,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2714,7 +2714,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2723,7 +2723,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2732,7 +2732,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2741,7 +2741,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2750,7 +2750,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2759,7 +2759,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2768,7 +2768,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2777,7 +2777,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2786,7 +2786,7 @@ def get_account():
 			"parent_number": "6110.000",
 			"account_number": "6110.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2795,7 +2795,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6120.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -2804,7 +2804,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2813,7 +2813,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2822,7 +2822,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2831,7 +2831,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2840,7 +2840,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2849,7 +2849,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2858,7 +2858,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2867,7 +2867,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2876,7 +2876,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2885,7 +2885,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2894,7 +2894,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2903,7 +2903,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2912,7 +2912,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2921,7 +2921,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2930,7 +2930,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2939,7 +2939,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2948,7 +2948,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2957,7 +2957,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2966,7 +2966,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2975,7 +2975,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2984,7 +2984,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -2993,7 +2993,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.022",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3002,7 +3002,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.023",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3011,7 +3011,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.024",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3020,7 +3020,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.025",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3029,7 +3029,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.026",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3038,7 +3038,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.027",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3047,7 +3047,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.028",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3056,7 +3056,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.029",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3065,7 +3065,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.030",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3074,7 +3074,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.031",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3083,7 +3083,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.032",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3092,7 +3092,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.033",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3101,7 +3101,7 @@ def get_account():
 			"parent_number": "6120.000",
 			"account_number": "6120.034",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3110,7 +3110,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6210.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -3119,7 +3119,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3128,7 +3128,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3137,7 +3137,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3146,7 +3146,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3155,7 +3155,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3164,7 +3164,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3173,7 +3173,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3182,7 +3182,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3191,7 +3191,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3200,7 +3200,7 @@ def get_account():
 			"parent_number": "6210.000",
 			"account_number": "6210.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3209,7 +3209,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6220.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -3218,7 +3218,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3227,7 +3227,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3236,7 +3236,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3245,7 +3245,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3254,7 +3254,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3263,7 +3263,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3272,7 +3272,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3281,7 +3281,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3290,7 +3290,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3299,7 +3299,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3308,7 +3308,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3317,7 +3317,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3326,7 +3326,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3335,7 +3335,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3344,7 +3344,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3353,7 +3353,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3362,7 +3362,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3371,7 +3371,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3380,7 +3380,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3389,7 +3389,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3398,7 +3398,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3407,7 +3407,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.022",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3416,7 +3416,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.023",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3425,7 +3425,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.024",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3434,7 +3434,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.025",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3443,7 +3443,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.026",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3452,7 +3452,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.027",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3461,7 +3461,7 @@ def get_account():
 			"parent_number": "6220.000",
 			"account_number": "6220.028",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3470,7 +3470,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6310.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -3479,7 +3479,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3488,7 +3488,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3497,7 +3497,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3506,7 +3506,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3515,7 +3515,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3524,7 +3524,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3533,7 +3533,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3542,7 +3542,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3551,7 +3551,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3560,7 +3560,7 @@ def get_account():
 			"parent_number": "6310.000",
 			"account_number": "6310.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3569,7 +3569,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6320.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -3578,7 +3578,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3587,7 +3587,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3596,7 +3596,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3605,7 +3605,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3614,7 +3614,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3623,7 +3623,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3632,7 +3632,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3641,7 +3641,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3650,7 +3650,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3659,7 +3659,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3668,7 +3668,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3677,7 +3677,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3686,7 +3686,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3695,7 +3695,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3704,7 +3704,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3713,7 +3713,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3722,7 +3722,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3731,7 +3731,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3740,7 +3740,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3749,7 +3749,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3758,7 +3758,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3767,7 +3767,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.022",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3776,7 +3776,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.023",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3785,7 +3785,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.024",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3794,7 +3794,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.025",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3803,7 +3803,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.026",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3812,7 +3812,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.027",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3821,7 +3821,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.028",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3830,7 +3830,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.029",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3839,7 +3839,7 @@ def get_account():
 			"parent_number": "6320.000",
 			"account_number": "6320.030",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3848,7 +3848,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6410.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -3857,7 +3857,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3866,7 +3866,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3875,7 +3875,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3884,7 +3884,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3893,7 +3893,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3902,7 +3902,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3911,7 +3911,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3920,7 +3920,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3929,7 +3929,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3938,7 +3938,7 @@ def get_account():
 			"parent_number": "6410.000",
 			"account_number": "6410.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3947,7 +3947,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6420.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -3956,7 +3956,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3965,7 +3965,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3974,7 +3974,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3983,7 +3983,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -3992,7 +3992,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4001,7 +4001,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4010,7 +4010,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4019,7 +4019,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4028,7 +4028,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4037,7 +4037,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4046,7 +4046,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4055,7 +4055,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4064,7 +4064,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4073,7 +4073,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4082,7 +4082,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4091,7 +4091,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4100,7 +4100,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4109,7 +4109,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4118,7 +4118,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4127,7 +4127,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4136,7 +4136,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4145,7 +4145,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.022",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4154,7 +4154,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.023",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4163,7 +4163,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.024",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4172,7 +4172,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.025",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4181,7 +4181,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.026",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4190,7 +4190,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.027",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4199,7 +4199,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.028",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4208,7 +4208,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.029",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4217,7 +4217,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.030",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4226,7 +4226,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.031",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4235,7 +4235,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.032",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4244,7 +4244,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.033",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4253,7 +4253,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.034",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4262,7 +4262,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.035",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4271,7 +4271,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.036",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4280,7 +4280,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.037",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4289,7 +4289,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.038",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4298,7 +4298,7 @@ def get_account():
 			"parent_number": "6420.000",
 			"account_number": "6420.039",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4307,7 +4307,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6510.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -4316,7 +4316,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4325,7 +4325,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4334,7 +4334,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4343,7 +4343,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4352,7 +4352,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4361,7 +4361,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4370,7 +4370,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4379,7 +4379,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4388,7 +4388,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4397,7 +4397,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4406,7 +4406,7 @@ def get_account():
 			"parent_number": "6510.000",
 			"account_number": "6510.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4415,7 +4415,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6520.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -4424,7 +4424,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4433,7 +4433,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4442,7 +4442,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4451,7 +4451,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4460,7 +4460,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4469,7 +4469,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4478,7 +4478,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4487,7 +4487,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4496,7 +4496,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4505,7 +4505,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4514,7 +4514,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4523,7 +4523,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4532,7 +4532,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4541,7 +4541,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4550,7 +4550,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4559,7 +4559,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4568,7 +4568,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4577,7 +4577,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4586,7 +4586,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4595,7 +4595,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4604,7 +4604,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4613,7 +4613,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.022",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4622,7 +4622,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.023",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4631,7 +4631,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.024",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4640,7 +4640,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.025",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4649,7 +4649,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.026",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4658,7 +4658,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.027",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4667,7 +4667,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.028",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4676,7 +4676,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.029",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4685,7 +4685,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.030",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4694,7 +4694,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.031",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4703,7 +4703,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.032",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4712,7 +4712,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.033",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4721,7 +4721,7 @@ def get_account():
 			"parent_number": "6520.000",
 			"account_number": "6520.034",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4730,7 +4730,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6610.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -4739,7 +4739,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4748,7 +4748,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4757,7 +4757,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4766,7 +4766,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4775,7 +4775,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4784,7 +4784,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4793,7 +4793,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4802,7 +4802,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4811,7 +4811,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4820,7 +4820,7 @@ def get_account():
 			"parent_number": "6610.000",
 			"account_number": "6610.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4829,7 +4829,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6620.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -4838,7 +4838,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4847,7 +4847,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4856,7 +4856,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4865,7 +4865,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4874,7 +4874,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4883,7 +4883,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4892,7 +4892,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4901,7 +4901,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4910,7 +4910,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4919,7 +4919,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4928,7 +4928,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4937,7 +4937,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4946,7 +4946,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4955,7 +4955,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4964,7 +4964,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4973,7 +4973,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4982,7 +4982,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -4991,7 +4991,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5000,7 +5000,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5009,7 +5009,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5018,7 +5018,7 @@ def get_account():
 			"parent_number": "6620.000",
 			"account_number": "6620.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5027,7 +5027,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6710.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5036,7 +5036,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5045,7 +5045,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5054,7 +5054,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5063,7 +5063,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5072,7 +5072,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5081,7 +5081,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5090,7 +5090,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5099,7 +5099,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5108,7 +5108,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5117,7 +5117,7 @@ def get_account():
 			"parent_number": "6710.000",
 			"account_number": "6710.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5126,7 +5126,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6720.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5135,7 +5135,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6810.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5144,7 +5144,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5153,7 +5153,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5162,7 +5162,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5171,7 +5171,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5180,7 +5180,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5189,7 +5189,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5198,7 +5198,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5207,7 +5207,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5216,7 +5216,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5225,7 +5225,7 @@ def get_account():
 			"parent_number": "6810.000",
 			"account_number": "6810.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5234,7 +5234,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6820.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5243,7 +5243,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5252,7 +5252,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5261,7 +5261,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5270,7 +5270,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5279,7 +5279,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5288,7 +5288,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5297,7 +5297,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5306,7 +5306,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5315,7 +5315,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5324,7 +5324,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.010",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5333,7 +5333,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.011",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5342,7 +5342,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.012",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5351,7 +5351,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.013",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5360,7 +5360,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.014",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5369,7 +5369,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.015",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5378,7 +5378,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.016",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5387,7 +5387,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.017",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5396,7 +5396,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.018",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5405,7 +5405,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.019",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5414,7 +5414,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.020",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5423,7 +5423,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.021",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5432,7 +5432,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.022",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5441,7 +5441,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.023",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5450,7 +5450,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.024",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5459,7 +5459,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.025",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5468,7 +5468,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.026",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5477,7 +5477,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.027",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5486,7 +5486,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.028",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5495,7 +5495,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.029",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5504,7 +5504,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.030",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5513,7 +5513,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.031",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5522,7 +5522,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.032",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5531,7 +5531,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.033",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5540,7 +5540,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.034",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5549,7 +5549,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.035",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5558,7 +5558,7 @@ def get_account():
 			"parent_number": "6820.000",
 			"account_number": "6820.036",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5567,7 +5567,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6910.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5576,7 +5576,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5585,7 +5585,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5594,7 +5594,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5603,7 +5603,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5612,7 +5612,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5621,7 +5621,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.006",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5630,7 +5630,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.007",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5639,7 +5639,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.008",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5648,7 +5648,7 @@ def get_account():
 			"parent_number": "6910.000",
 			"account_number": "6910.009",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5657,7 +5657,7 @@ def get_account():
 			"parent_number": "6000.000",
 			"account_number": "6830.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5666,7 +5666,7 @@ def get_account():
 			"parent_number": "6830.000",
 			"account_number": "6830.001",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5675,7 +5675,7 @@ def get_account():
 			"parent_number": "6830.000",
 			"account_number": "6830.002",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5684,7 +5684,7 @@ def get_account():
 			"parent_number": "6830.000",
 			"account_number": "6830.003",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5693,7 +5693,7 @@ def get_account():
 			"parent_number": "6830.000",
 			"account_number": "6830.004",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5702,7 +5702,7 @@ def get_account():
 			"parent_number": "6830.000",
 			"account_number": "6830.005",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5711,7 +5711,7 @@ def get_account():
 			"parent_number": "",
 			"account_number": "7000.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5720,7 +5720,7 @@ def get_account():
 			"parent_number": "7000.000",
 			"account_number": "7100.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5729,7 +5729,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7101.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5738,7 +5738,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7102.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5747,7 +5747,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7103.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5756,7 +5756,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7104.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5765,7 +5765,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7105.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5774,7 +5774,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7106.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5783,7 +5783,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7107.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5792,7 +5792,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7108.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5801,7 +5801,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7109.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5810,7 +5810,7 @@ def get_account():
 			"parent_number": "7100.000",
 			"account_number": "7110.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5819,7 +5819,7 @@ def get_account():
 			"parent_number": "7000.000",
 			"account_number": "7200.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5828,7 +5828,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7201.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5837,7 +5837,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7202.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5846,7 +5846,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7203.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5855,7 +5855,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7204.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5864,7 +5864,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7205.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5873,7 +5873,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7206.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5882,7 +5882,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7207.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5891,7 +5891,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7208.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5900,7 +5900,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7209.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5909,7 +5909,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7210.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5918,7 +5918,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7211.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5927,7 +5927,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7212.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5936,7 +5936,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7213.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5945,7 +5945,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7214.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5954,7 +5954,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7215.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5963,7 +5963,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7216.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5972,7 +5972,7 @@ def get_account():
 			"parent_number": "7200.000",
 			"account_number": "7217.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5981,7 +5981,7 @@ def get_account():
 			"parent_number": "7000.000",
 			"account_number": "7300.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -5990,7 +5990,7 @@ def get_account():
 			"parent_number": "7300.000",
 			"account_number": "7301.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -5999,7 +5999,7 @@ def get_account():
 			"parent_number": "7300.000",
 			"account_number": "7302.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6008,7 +6008,7 @@ def get_account():
 			"parent_number": "7300.000",
 			"account_number": "7303.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6017,7 +6017,7 @@ def get_account():
 			"parent_number": "7300.000",
 			"account_number": "7304.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6026,7 +6026,7 @@ def get_account():
 			"parent_number": "7300.000",
 			"account_number": "7305.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6035,7 +6035,7 @@ def get_account():
 			"parent_number": "7300.000",
 			"account_number": "7306.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Stock Adjustment",
 			"root_type": "Expense"
 		},
@@ -6044,7 +6044,7 @@ def get_account():
 			"parent_number": "7000.000",
 			"account_number": "7400.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -6053,7 +6053,7 @@ def get_account():
 			"parent_number": "7400.000",
 			"account_number": "7401.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6062,7 +6062,7 @@ def get_account():
 			"parent_number": "7400.000",
 			"account_number": "7402.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6071,7 +6071,7 @@ def get_account():
 			"parent_number": "7400.000",
 			"account_number": "7403.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6080,7 +6080,7 @@ def get_account():
 			"parent_number": "7400.000",
 			"account_number": "7404.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6089,7 +6089,7 @@ def get_account():
 			"parent_number": "7000.000",
 			"account_number": "7500.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -6098,7 +6098,7 @@ def get_account():
 			"parent_number": "7500.000",
 			"account_number": "7501.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6107,7 +6107,7 @@ def get_account():
 			"parent_number": "7500.000",
 			"account_number": "7502.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6116,7 +6116,7 @@ def get_account():
 			"parent_number": "7500.000",
 			"account_number": "7503.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6125,7 +6125,7 @@ def get_account():
 			"parent_number": "7500.000",
 			"account_number": "7504.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6134,7 +6134,7 @@ def get_account():
 			"parent_number": "7000.000",
 			"account_number": "7600.000",
 			"is_group": "1",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		},
@@ -6143,7 +6143,7 @@ def get_account():
 			"parent_number": "7600.000",
 			"account_number": "7601.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Expense Account",
 			"root_type": "Expense"
 		},
@@ -6152,7 +6152,7 @@ def get_account():
 			"parent_number": "7600.000",
 			"account_number": "7602.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Tax",
 			"root_type": "Expense"
 		},
@@ -6161,7 +6161,7 @@ def get_account():
 			"parent_number": "7600.000",
 			"account_number": "7603.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Tax",
 			"root_type": "Expense"
 		},
@@ -6170,7 +6170,7 @@ def get_account():
 			"parent_number": "7600.000",
 			"account_number": "7604.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Tax",
 			"root_type": "Expense"
 		},
@@ -6179,7 +6179,7 @@ def get_account():
 			"parent_number": "7600.000",
 			"account_number": "7605.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Depreciation",
 			"root_type": "Expense"
 		},
@@ -6188,7 +6188,7 @@ def get_account():
 			"parent_number": "7600.000",
 			"account_number": "7607.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "Round Off",
 			"root_type": "Expense"
 		},
@@ -6197,7 +6197,7 @@ def get_account():
 			"parent_number": "7600.000",
 			"account_number": "7608.000",
 			"is_group": "0",
-			"account_currency": "IDR",
+			"account_currency": "IQD",
 			"account_type": "",
 			"root_type": "Expense"
 		}

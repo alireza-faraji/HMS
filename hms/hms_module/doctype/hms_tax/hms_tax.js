@@ -16,7 +16,7 @@ frappe.ui.form.on('HMS Tax Breakdown', {
 			br_desc = child.breakdown_rate + "% " + br_type;
 		}
 		else if (child.breakdown_actual_amount != undefined) {
-			br_desc = format_currency(child.breakdown_actual_amount, 'IDR') + " " + br_type;
+			br_desc = format_currency(child.breakdown_actual_amount, 'IQD') + " " + br_type;
 		}
 		else {
 			br_desc = br_type;
@@ -40,7 +40,7 @@ frappe.ui.form.on('HMS Tax Breakdown', {
 		var br_desc = child.breakdown_description;
 		var br_type = child.breakdown_type;
 		if (child.breakdown_actual_amount != undefined) {
-			br_desc = format_currency(child.breakdown_actual_amount, 'IDR') + " " + br_type;
+			br_desc = format_currency(child.breakdown_actual_amount, 'IQD') + " " + br_type;
 		}
 		else {
 			br_desc = br_type;

@@ -10,9 +10,10 @@ from frappe import _
 from frappe.model.document import Document
 from frappe.desk.page.setup_wizard.setup_wizard import make_records
 from erpnext.accounts.doctype.account.account import update_account_number
-from hms.hms_module.doctype.hms_module_setting.setting_data import get_account
+from hms.hms_module.doctype.hms_module_setting1.setting_data import get_account
 
-class HmsModuleSetting(Document):
+
+class HmsModuleSetting1(Document):
 	pass
 
 @frappe.whitelist()

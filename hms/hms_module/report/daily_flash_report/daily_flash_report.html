@@ -44,28 +44,28 @@
                 </td>
                 <td>
                     {% if(data[i].is_currency) { %}
-                        {%= format_currency(data[i].today_actual, "IDR") %}
+                        {%= format_currency(data[i].today_actual, "IQD") %}
                     {% } else { %}
                         {%= data[i].today_actual %}
                     {% } %}
                 </td>
                 <td>
                     {% if(data[i].is_currency) { %}
-                        {%= format_currency(data[i].mtd_actual, "IDR") %}
+                        {%= format_currency(data[i].mtd_actual, "IQD") %}
                     {% } else { %}
                         {%= data[i].mtd_actual %}
                     {% } %}
                 </td>
                 <td>
                     {% if(data[i].is_currency) { %}
-                        {%= format_currency(data[i].mtd_last_month, "IDR") %}
+                        {%= format_currency(data[i].mtd_last_month, "IQD") %}
                     {% } else { %}
                         {%= data[i].mtd_last_month %}
                     {% } %}
                 </td>
                 <td>
                     {% if(data[i].is_currency) { %}
-                        {%= format_currency(data[i].year_to_date, "IDR") %}
+                        {%= format_currency(data[i].year_to_date, "IQD") %}
                     {% } else { %}
                         {%= data[i].year_to_date %}
                     {% } %}

@@ -74,23 +74,23 @@
 
         <tr>
             <td><b>{%= __("Total Revenue") %}</b></td>        
-            <td><b>{%= format_currency(r_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(r_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(r_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(r_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(r_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(r_yd, "IQD") %}</b></td>
         </tr>
     
         <tr>
             <td><b>{%= __("Total Cost of Sales") %}</b></td>
-            <td><b>{%= format_currency(cos_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(cos_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(cos_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(cos_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(cos_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(cos_yd, "IQD") %}</b></td>
         </tr>
     
         <tr>
             <td><b>{%= __("Total Employee and Payroll") %}</b></td>
-            <td><b>{%= format_currency(ep_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(ep_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(ep_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(ep_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(ep_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(ep_yd, "IQD") %}</b></td>
         </tr>
 
         {% var gop_cm = r_cm - cos_cm - ep_cm %}
@@ -99,16 +99,16 @@
 
         <tr>
             <td><b>{%= __("Gross Operating Profit (GOP)") %}</b></td>
-            <td><b>{%= format_currency(gop_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(gop_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(gop_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(gop_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(gop_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(gop_yd, "IQD") %}</b></td>
         </tr>
         
         <tr>
             <td><b>{%= __("Total Expense") %}</b></td>
-            <td><b>{%= format_currency(e_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(e_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(e_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(e_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(e_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(e_yd, "IQD") %}</b></td>
         </tr>
 
         {% var nop_cm = gop_cm - e_cm %}
@@ -117,9 +117,9 @@
 
         <tr>
             <td><b>{%= __("Net Operating Profit (NOP)") %}</b></td>
-            <td><b>{%= format_currency(nop_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(nop_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(nop_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(nop_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(nop_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(nop_yd, "IQD") %}</b></td>
         </tr>
 
         <tr>
@@ -136,9 +136,9 @@
                 {% if (data[i].account.substr(0, 1) == 4) { %}
                     <tr>
                         <td>{%= data[i].account %}</td>
-                        <td>{%= format_currency(data[i].current_month, "IDR") %}</td>
-                        <td>{%= format_currency(data[i].last_month, "IDR") %}</td>
-                        <td>{%= format_currency(data[i].year_to_date, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].current_month, "IQD") %}</td>
+                        <td>{%= format_currency(data[i].last_month, "IQD") %}</td>
+                        <td>{%= format_currency(data[i].year_to_date, "IQD") %}</td>
                     </tr>
                 {% } %}
             {% } %}
@@ -146,9 +146,9 @@
 
         <tr>
             <td><b>{%= __("Total Revenue") %}</b></td>
-            <td><b>{%= format_currency(r_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(r_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(r_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(r_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(r_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(r_yd, "IQD") %}</b></td>
         </tr>
 
         <tr>
@@ -165,9 +165,9 @@
                 {% if (data[i].account.substr(0, 1) == 5) { %}
                     <tr>
                         <td>{%= data[i].account %}</td>
-                        <td>{%= format_currency(data[i].current_month, "IDR") %}</td>
-                        <td>{%= format_currency(data[i].last_month, "IDR") %}</td>
-                        <td>{%= format_currency(data[i].year_to_date, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].current_month, "IQD") %}</td>
+                        <td>{%= format_currency(data[i].last_month, "IQD") %}</td>
+                        <td>{%= format_currency(data[i].year_to_date, "IQD") %}</td>
                     </tr>
                 {% } %}
             {% } %}
@@ -175,9 +175,9 @@
 
         <tr>
             <td><b>{%= __("Total Cost of Sales") %}</b></td>
-            <td><b>{%= format_currency(cos_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(cos_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(cos_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(cos_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(cos_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(cos_yd, "IQD") %}</b></td>
         </tr>
         
         <tr>
@@ -194,9 +194,9 @@
                 {% if (data[i].account.substr(0, 1) == 6) { %}
                     <tr>
                         <td>{%= data[i].account %}</td>
-                        <td>{%= format_currency(data[i].current_month, "IDR") %}</td>
-                        <td>{%= format_currency(data[i].last_month, "IDR") %}</td>
-                        <td>{%= format_currency(data[i].year_to_date, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].current_month, "IQD") %}</td>
+                        <td>{%= format_currency(data[i].last_month, "IQD") %}</td>
+                        <td>{%= format_currency(data[i].year_to_date, "IQD") %}</td>
                     </tr>
                 {% } %}
             {% } %}
@@ -204,9 +204,9 @@
 
         <tr>
             <td><b>{%= __("Total Employee and Payroll") %}</b></td>   
-            <td><b>{%= format_currency(ep_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(ep_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(ep_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(ep_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(ep_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(ep_yd, "IQD") %}</b></td>
         </tr>
 
         <tr>
@@ -223,9 +223,9 @@
                 {% if (data[i].account.substr(0, 1) == 7) { %}
                     <tr>
                         <td>{%= data[i].account %}</td>
-                        <td>{%= format_currency(data[i].current_month, "IDR") %}</td>
-                        <td>{%= format_currency(data[i].last_month, "IDR") %}</td>
-                        <td>{%= format_currency(data[i].year_to_date, "IDR") %}</td>
+                        <td>{%= format_currency(data[i].current_month, "IQD") %}</td>
+                        <td>{%= format_currency(data[i].last_month, "IQD") %}</td>
+                        <td>{%= format_currency(data[i].year_to_date, "IQD") %}</td>
                     </tr>
                 {% } %}
             {% } %}
@@ -233,9 +233,9 @@
 
         <tr>
             <td><b>{%= __("Total Expense") %}</b></td>
-            <td><b>{%= format_currency(e_cm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(e_lm, "IDR") %}</b></td>
-            <td><b>{%= format_currency(e_yd, "IDR") %}</b></td>
+            <td><b>{%= format_currency(e_cm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(e_lm, "IQD") %}</b></td>
+            <td><b>{%= format_currency(e_yd, "IQD") %}</b></td>
         </tr>
     </tbody>
 </table>

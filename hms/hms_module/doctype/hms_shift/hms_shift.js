@@ -96,7 +96,7 @@ frappe.ui.form.on('HMS Shift', {
 					}
 					// Opening is over the max opening allowed
 					else if ( frm.doc.opening > parseFloat(r.message)) {
-						frappe.msgprint("Maximum Opening Cash Allowed is below " + format_currency(r.message, 'IDR') );
+						frappe.msgprint("Maximum Opening Cash Allowed is below " + format_currency(r.message, 'IQD') );
 						frm.set_value('opening', 0);
 					}
 				}

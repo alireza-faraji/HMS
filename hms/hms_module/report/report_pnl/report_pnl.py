@@ -125,7 +125,7 @@ def get_data(filters):
                 
                 data.append({
                         'account': account,
-                        'currency': 'IDR',
+                        'currency': 'IQD',
                         'current_month': math.ceil(accounts_map[account]['current_month']),
                         'last_month': math.ceil(accounts_map[account]['last_month']),
                         'year_to_date': math.ceil(accounts_map[account]['year_to_date']),

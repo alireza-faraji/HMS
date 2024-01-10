@@ -123,16 +123,17 @@ def post_individual_room_charges(parent_id, tobe_posted_list):
 			room_tax_doc.parenttype = 'HMS Folio'
 			room_tax_doc.parentfield = 'folio_transaction'
 			room_tax_doc.ftb_id = ftb_doc.name
-			room_tax_doc.insert()
+			if room_tax_doc.amount!=0:
+				room_tax_doc.insert()
 
-			if room_tax_doc.credit_account == fdc_room_rate_tax_account:
-				fdc_folio_trx_tax_name = room_tax_doc.name
+				if room_tax_doc.credit_account == fdc_room_rate_tax_account:
+					fdc_folio_trx_tax_name = room_tax_doc.name
 
-			# Create HMS Folio Transaction Bundle Detail Item Room Charge Tax/Service
-			ftbd_doc = frappe.new_doc('HMS Folio Transaction Bundle Detail')
-			ftbd_doc.transaction_type = room_tax_doc.transaction_type
-			ftbd_doc.transaction_id = room_tax_doc.name
-			ftb_doc.append('transaction_detail', ftbd_doc)
+				# Create HMS Folio Transaction Bundle Detail Item Room Charge Tax/Service
+				ftbd_doc = frappe.new_doc('HMS Folio Transaction Bundle Detail')
+				ftbd_doc.transaction_type = room_tax_doc.transaction_type
+				ftbd_doc.transaction_id = room_tax_doc.name
+				ftb_doc.append('transaction_detail', ftbd_doc)
 
 		# Posting Breakfast Charge
 		breakfast_charge_debit_account, breakfast_charge_credit_account = get_accounts_from_id('Breakfast Charge')
@@ -177,13 +178,14 @@ def post_individual_room_charges(parent_id, tobe_posted_list):
 			breakfast_tax_doc.parenttype = 'HMS Folio'
 			breakfast_tax_doc.parentfield = 'folio_transaction'
 			breakfast_tax_doc.ftb_id = ftb_doc.name
-			breakfast_tax_doc.insert()
+			if breakfast_tax_doc.amount!=0:
+				breakfast_tax_doc.insert()
 
-			# Create HMS Folio Transaction Bundle Detail Item Breakfast Charge Tax/Service
-			ftbd_doc = frappe.new_doc('HMS Folio Transaction Bundle Detail')
-			ftbd_doc.transaction_type = breakfast_tax_doc.transaction_type
-			ftbd_doc.transaction_id = breakfast_tax_doc.name
-			ftb_doc.append('transaction_detail', ftbd_doc)
+				# Create HMS Folio Transaction Bundle Detail Item Breakfast Charge Tax/Service
+				ftbd_doc = frappe.new_doc('HMS Folio Transaction Bundle Detail')
+				ftbd_doc.transaction_type = breakfast_tax_doc.transaction_type
+				ftbd_doc.transaction_id = breakfast_tax_doc.name
+				ftb_doc.append('transaction_detail', ftbd_doc)
 
 		print("accumulated amount = " + str(accumulated_amount))
 		print("math_ceil(accumulated amount) = " + str(math.ceil(accumulated_amount)))

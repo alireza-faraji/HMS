@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"s5pXpGLdkx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Hotel Management</span>\",\"col\":12}},{\"id\":\"PLUO-cNKgb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hms Room Availability Page\",\"col\":3}},{\"id\":\"XeZ7JpnXpW\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SGeM1vjaSO\",\"type\":\"card\",\"data\":{\"card_name\":\"Room\",\"col\":4}},{\"id\":\"TakfKRxIpo\",\"type\":\"card\",\"data\":{\"card_name\":\"Shift\",\"col\":4}},{\"id\":\"f9pyLDHT6e\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
+ "content": "[{\"id\":\"s5pXpGLdkx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Hotel Management</span>\",\"col\":12}},{\"id\":\"XeZ7JpnXpW\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SGeM1vjaSO\",\"type\":\"card\",\"data\":{\"card_name\":\"Room\",\"col\":4}},{\"id\":\"TakfKRxIpo\",\"type\":\"card\",\"data\":{\"card_name\":\"Room Expenses\",\"col\":4}}]",
  "creation": "2023-12-11 10:41:16.070821",
  "custom_blocks": [],
  "docstatus": 0,
@@ -55,27 +55,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Shift",
-   "link_count": 1,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Opening Entry",
-   "link_count": 0,
-   "link_to": "POS Opening Entry",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Room",
-   "link_count": 9,
+   "link_count": 4,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -95,56 +76,6 @@
    "label": "HMS Room Rate",
    "link_count": 0,
    "link_to": "HMS Room Rate",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HMS Room Type Availability Page",
-   "link_count": 0,
-   "link_to": "HMS Room Type Availability Page",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HMS Room Charge Posted",
-   "link_count": 0,
-   "link_to": "HMS Room Charge Posted",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HMS Room Charge Posting",
-   "link_count": 0,
-   "link_to": "HMS Room Charge Posting",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HMS Move Room",
-   "link_count": 0,
-   "link_to": "HMS Move Room",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HMS Room Booking",
-   "link_count": 0,
-   "link_to": "HMS Room Booking",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -172,17 +103,17 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Settings",
-   "link_count": 2,
+   "label": "Room Expenses",
+   "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Settings",
+   "label": "HMS Room Charge Posting",
    "link_count": 0,
-   "link_to": "Hms Module Setting",
+   "link_to": "HMS Room Charge Posting",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -190,15 +121,25 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "HMS Floor Plan",
+   "label": "HMS Dayend Close",
    "link_count": 0,
-   "link_to": "HMS Floor Plan",
+   "link_to": "HMS Dayend Close",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "HMS Folio",
+   "link_count": 0,
+   "link_to": "HMS Folio",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2024-01-05 20:47:10.703258",
+ "modified": "2024-01-10 12:35:43.393607",
  "modified_by": "Administrator",
  "module": "Hms Module",
  "name": "Hotel Management System",
@@ -209,14 +150,6 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 31.1,
- "shortcuts": [
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Hms Room Availability Page",
-   "link_to": "HMS Room Availability Page",
-   "type": "DocType"
-  }
- ],
+ "shortcuts": [],
  "title": "Hotel Management System"
 }

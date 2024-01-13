@@ -100,27 +100,17 @@ def update_single_room_status(room, mode):
 	is_housekeeping_supervisor = False
 	is_administrator = False
 
+	is_housekeeping_assistant = False
+	is_housekeeping_supervisor = False
+	is_administrator = False
+
 	for role in frappe.get_roles(frappe.session.user):
-		if role == 'Housekeeping':
-			is_housekeeping = True
-			is_housekeeping_assistant = False
-			is_housekeeping_supervisor = False
-			is_administrator = False
-		elif role == 'Housekeeping Assistant':
+		if role == 'Housekeeping Assistant':
 			is_housekeeping_assistant = True
-			is_housekeeping = False
-			is_housekeeping_supervisor = False
-			is_administrator = False
 		elif role == 'Housekeeping Supervisor':
 			is_housekeeping_supervisor = True
-			is_housekeeping = False
-			is_housekeeping_assistant = False
-			is_administrator = False
 		elif role == 'Administrator':
 			is_administrator = True
-			is_housekeeping = False
-			is_housekeeping_assistant = False
-			is_housekeeping_supervisor = False
 
 	if mode == 'clean':
 		door_status = frappe.db.get_value('HMS Room', room, 'door_status')

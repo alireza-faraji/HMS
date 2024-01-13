@@ -224,9 +224,18 @@ def generate_wifi_password(reservation_id):
 
 @frappe.whitelist()
 def calculate_room_bill(arrival, departure, actual_rate):
-	start = datetime.datetime.strptime(arrival, "%Y-%m-%d %H:%M:%S")
-	end = datetime.datetime.strptime(departure, "%Y-%m-%d %H:%M:%S")
-	total_day = (end - start).days
+	if  arrival.find(' GMT')>0:
+		arrival = arrival.split(' GMT')[0]
+		start = datetime.datetime.strptime(arrival, '%a %b %d %Y %H:%M:%S')
+	else:
+		start = datetime.datetime.strptime(arrival, "%Y-%m-%d %H:%M:%S")
+	if  departure.find(' GMT')>0:
+		departure = departure.split(' GMT')[0]
+		end = datetime.datetime.strptime(departure, '%a %b %d %Y %H:%M:%S')
+	else:
+		end = datetime.datetime.strptime(departure, "%Y-%m-%d %H:%M:%S")
+	deferance = end - start
+	total_day = deferance.days
 	return float(total_day) * float(actual_rate)
 
 @frappe.whitelist()

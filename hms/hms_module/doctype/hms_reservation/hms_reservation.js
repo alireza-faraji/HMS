@@ -307,6 +307,8 @@ frappe.ui.form.on('HMS Reservation', {
 				}
 			}
 		});
+		if(frm.doc.expected_arrival!=undefined && frm.doc.expected_departure!=undefined)
+		manage_filters('room_type', '', frm.doc.expected_arrival);
 	},
 	expected_departure: function(frm) {
 		frappe.call({
@@ -332,6 +334,8 @@ frappe.ui.form.on('HMS Reservation', {
 				}
 			}
 		});
+		if(frm.doc.expected_arrival!=undefined && frm.doc.expected_departure!=undefined)
+		manage_filters('room_type', '', frm.doc.expected_arrival);
 	},
 	arrival: function(frm) {
 		frappe.call({
@@ -357,8 +361,9 @@ frappe.ui.form.on('HMS Reservation', {
 						frappe.msgprint("Actual Arrival cannot be empty. Defaulted to Expected Arrival.");
 					}
 					else {
-						calculate_rate_and_bill(frm);
+						
 						if (frm.doc.departure) {
+							calculate_rate_and_bill(frm);
 							frm.set_value('total_night', calculate_nights(frm.doc.arrival, frm.doc.departure));
 						}
 					}
@@ -392,6 +397,30 @@ frappe.ui.form.on('HMS Reservation', {
 						frappe.msgprint("Actual Departure cannot be empty. Defaulted to Expected Departure.");
 					}
 					else {
+					 
+							// if (frm.doc.actual_room_id === undefined || frm.doc.actual_room_id == null || frm.doc.actual_room_id === '') {
+							// 	frappe.call({
+							// 		method: 'hms.hms_module.doctype.hms_room.hms_room.get_room_status',
+							// 		args: {
+							// 			room_id: frm.doc.room_id
+							// 		},
+							// 		callback: (r) => {
+							// 			if (r.message === 'Vacant Ready') {
+							// 				frm.set_value('actual_room_id', frm.doc.room_id);
+											 
+							// 			}
+							// 			else {
+							// 				get_available('actual_room_id', 'Check In');
+							// 				frappe.msgprint("Currently, Room " + frm.doc.room_id + " status is not Vacant Ready. " +
+							// 					"Please consult with Room Service or choose another Room to continue Checking In.")
+							// 			}
+										 
+							// 		}
+							// 	});
+								 
+							// }
+							 
+						 
 						frappe.call({
 							method: 'hms.hms_module.doctype.hms_room_booking.hms_room_booking.get_room_booking_name_by_reservation',
 							args: {
@@ -404,6 +433,7 @@ frappe.ui.form.on('HMS Reservation', {
 									frappe.call({
 										method: 'hms.hms_module.doctype.hms_room_booking.hms_room_booking.get_name_within_date_range',
 										args: {
+											//room_id: frm.doc.room_id,
 											room_id: frm.doc.actual_room_id,
 											start: formatDate(frm.doc.arrival),
 											end: formatDate(frm.doc.departure),
@@ -411,8 +441,9 @@ frappe.ui.form.on('HMS Reservation', {
 										callback: (resp) => {
 											console.log("resp = " + resp.message);
 											if (resp.message == room_booking_name) {
-												calculate_rate_and_bill(frm);
+												
 												if (frm.doc.arrival) {
+													calculate_rate_and_bill(frm);
 													frm.set_value('total_night', calculate_nights(frm.doc.arrival, frm.doc.departure));
 												}
 											}
@@ -1184,6 +1215,7 @@ function move_room(frm) {
 }
 
 function calculate_rate_and_bill(frm) {
+	
 	frappe.call({
 		method: 'hms.hms_module.doctype.hms_reservation.hms_reservation.calculate_room_bill',
 		args: {

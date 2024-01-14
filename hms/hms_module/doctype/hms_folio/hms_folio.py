@@ -33,7 +33,11 @@ def update_close_by_reservation(reservation_id):
 	if reservation.status != 'Finish':
 		for item in folio_list:
 			doc_folio = frappe.get_doc('HMS Folio', item.name)
-			doc_folio.close = reservation.departure.strftime('%Y-%m-%d')
+			# (frm.doc.actual_room_id === undefined || frm.doc.actual_room_id == null || frm.doc.actual_room_id === '')
+			if reservation.departure==None:
+				doc_folio.close = reservation.expected_departure.strftime('%Y-%m-%d')
+			else:
+				doc_folio.close = reservation.departure.strftime('%Y-%m-%d')
 			doc_folio.save()
 
 @frappe.whitelist()

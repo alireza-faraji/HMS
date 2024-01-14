@@ -70,6 +70,12 @@ frappe.ui.form.on('HMS Reservation', {
 			// Show Start Check In Process button if is_check_in flag undefined
 			if (is_check_in === undefined) {
 				console.log("is_check_in undefined");
+				//Fjbali Start
+				frm.set_df_property('arrival', 'hidden', 1);
+				frm.set_df_property('departure', 'hidden', 1);
+				frm.set_df_property('actual_room_id', 'hidden', 1);
+				frm.set_df_property('wifi_password', 'hidden', 1);
+				//Fjbali End
 				frm.add_custom_button(__("Start Check In Process"), function () {
 					is_check_in = "true";
 					frappe.call({
@@ -349,21 +355,20 @@ frappe.ui.form.on('HMS Reservation', {
 					expected_arrival.setHours(now.getHours(), now.getMinutes(), now.getSeconds());
 
 					if (frm.doc.arrival < r.message) {
-						frm.set_value('arrival', expected_arrival);
-						frappe.msgprint("Actual Arrival must be greater than last audit date: " + r.message + ". Defaulted to Expected Arrival.");
+						//frm.set_value('arrival', expected_arrival);
+						frappe.msgprint("Actual Arrival must be greater than last audit date: " + r.message );//+ ". Defaulted to Expected Arrival.");
 					}
 					else if (date_departure.setHours(0,0,0,0) <= date_arrival.setHours(0,0,0,0)) {
-						frm.set_value('arrival', expected_arrival);
-						frappe.msgprint("Actual Departure must be greater than Actual Arrival. Defaulted to Expected Arrival.");
+						//frm.set_value('arrival', expected_arrival);
+						frappe.msgprint("Actual Departure must be greater than Actual Arrival."); //Defaulted to Expected Arrival."
 					}
 					else if (frm.doc.arrival == null || frm.doc.arrival == undefined || frm.doc.arrival == '') {
-						frm.set_value('arrival', expected_arrival);
-						frappe.msgprint("Actual Arrival cannot be empty. Defaulted to Expected Arrival.");
+						//frm.set_value('arrival', expected_arrival);
+						frappe.msgprint("Actual Arrival cannot be empty.");// Defaulted to Expected Arrival.");
 					}
 					else {
-						
+						calculate_rate_and_bill(frm);
 						if (frm.doc.departure) {
-							calculate_rate_and_bill(frm);
 							frm.set_value('total_night', calculate_nights(frm.doc.arrival, frm.doc.departure));
 						}
 					}
@@ -385,42 +390,18 @@ frappe.ui.form.on('HMS Reservation', {
 					default_departure.setHours(12,0,0);
 
 					if (frm.doc.departure < r.message) {
-						frm.set_value('departure', default_departure);
-						frappe.msgprint("Actual Departure must be greater than Last Audit Date: " + r.message + ". Defaulted to Expected Departure.");
+						//frm.set_value('departure', default_departure);
+						frappe.msgprint("Actual Departure must be greater than Last Audit Date: " + r.message);// + ". Defaulted to Expected Departure.");
 					}
 					else if (date_departure.setHours(0,0,0,0) <= date_arrival.setHours(0,0,0,0)) {
-						frm.set_value('departure', default_departure);
-						frappe.msgprint("Actual Departure must be greater than Actual Arrival. Defaulted to Expected Departure.");
+						//frm.set_value('departure', default_departure);
+						frappe.msgprint("Actual Departure must be greater than Actual Arrival.");// Defaulted to Expected Departure.");
 					}
 					else if (frm.doc.departure == null || frm.doc.departure == undefined || frm.doc.departure == '') {
-						frm.set_value('departure', default_departure);
-						frappe.msgprint("Actual Departure cannot be empty. Defaulted to Expected Departure.");
+						//frm.set_value('departure', default_departure);
+						frappe.msgprint("Actual Departure cannot be empty.");// Defaulted to Expected Departure.");
 					}
 					else {
-					 
-							// if (frm.doc.actual_room_id === undefined || frm.doc.actual_room_id == null || frm.doc.actual_room_id === '') {
-							// 	frappe.call({
-							// 		method: 'hms.hms_module.doctype.hms_room.hms_room.get_room_status',
-							// 		args: {
-							// 			room_id: frm.doc.room_id
-							// 		},
-							// 		callback: (r) => {
-							// 			if (r.message === 'Vacant Ready') {
-							// 				frm.set_value('actual_room_id', frm.doc.room_id);
-											 
-							// 			}
-							// 			else {
-							// 				get_available('actual_room_id', 'Check In');
-							// 				frappe.msgprint("Currently, Room " + frm.doc.room_id + " status is not Vacant Ready. " +
-							// 					"Please consult with Room Service or choose another Room to continue Checking In.")
-							// 			}
-										 
-							// 		}
-							// 	});
-								 
-							// }
-							 
-						 
 						frappe.call({
 							method: 'hms.hms_module.doctype.hms_room_booking.hms_room_booking.get_room_booking_name_by_reservation',
 							args: {
@@ -433,7 +414,6 @@ frappe.ui.form.on('HMS Reservation', {
 									frappe.call({
 										method: 'hms.hms_module.doctype.hms_room_booking.hms_room_booking.get_name_within_date_range',
 										args: {
-											//room_id: frm.doc.room_id,
 											room_id: frm.doc.actual_room_id,
 											start: formatDate(frm.doc.arrival),
 											end: formatDate(frm.doc.departure),
@@ -441,9 +421,8 @@ frappe.ui.form.on('HMS Reservation', {
 										callback: (resp) => {
 											console.log("resp = " + resp.message);
 											if (resp.message == room_booking_name) {
-												
+												calculate_rate_and_bill(frm);
 												if (frm.doc.arrival) {
-													calculate_rate_and_bill(frm);
 													frm.set_value('total_night', calculate_nights(frm.doc.arrival, frm.doc.departure));
 												}
 											}
@@ -1215,7 +1194,6 @@ function move_room(frm) {
 }
 
 function calculate_rate_and_bill(frm) {
-	
 	frappe.call({
 		method: 'hms.hms_module.doctype.hms_reservation.hms_reservation.calculate_room_bill',
 		args: {

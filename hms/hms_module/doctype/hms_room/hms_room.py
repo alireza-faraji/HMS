@@ -37,11 +37,15 @@ def get_room_status(room_id):
 
 
 @frappe.whitelist()
-def get_all_hms_room():
-	return frappe.db.get_all('HMS Room',
+def get_all_hms_room(room_type):
+	if room_type=='':
+		return frappe.db.get_all('HMS Room',
 							 fields=['name', 'room_type', 'bed_type', 'allow_smoke', 'view', 'room_status'],
 							 order_by='name asc')
-
+	else:
+		return frappe.db.get_all('HMS Room',filters={"room_type":room_type},
+							 fields=['name', 'room_type', 'bed_type', 'allow_smoke', 'view', 'room_status'],
+							 order_by='name asc')
 @frappe.whitelist()
 def update_room_status(rooms, mode):
 	is_failed = []

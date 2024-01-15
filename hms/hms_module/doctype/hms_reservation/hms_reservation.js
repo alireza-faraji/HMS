@@ -355,16 +355,16 @@ frappe.ui.form.on('HMS Reservation', {
 					expected_arrival.setHours(now.getHours(), now.getMinutes(), now.getSeconds());
 
 					if (frm.doc.arrival < r.message) {
-						//frm.set_value('arrival', expected_arrival);
-						frappe.msgprint("Actual Arrival must be greater than last audit date: " + r.message );//+ ". Defaulted to Expected Arrival.");
+						frm.set_value('arrival', frappe.datetime.get_datetime_as_string(expected_arrival));
+						frappe.msgprint("Actual Arrival must be greater than last audit date: " + r.message +". Defaulted to Expected Arrival.");
 					}
 					else if (date_departure.setHours(0,0,0,0) <= date_arrival.setHours(0,0,0,0)) {
-						//frm.set_value('arrival', expected_arrival);
-						frappe.msgprint("Actual Departure must be greater than Actual Arrival."); //Defaulted to Expected Arrival."
+						frm.set_value('arrival', frappe.datetime.get_datetime_as_string(expected_arrival));
+						frappe.msgprint("Actual Departure must be greater than Actual Arrival. Defaulted to Expected Arrival.")
 					}
 					else if (frm.doc.arrival == null || frm.doc.arrival == undefined || frm.doc.arrival == '') {
-						//frm.set_value('arrival', expected_arrival);
-						frappe.msgprint("Actual Arrival cannot be empty.");// Defaulted to Expected Arrival.");
+						frm.set_value('arrival', frappe.datetime.get_datetime_as_string(expected_arrival));
+						frappe.msgprint("Actual Arrival cannot be empty. Defaulted to Expected Arrival.");
 					}
 					else {
 						calculate_rate_and_bill(frm);
@@ -390,16 +390,16 @@ frappe.ui.form.on('HMS Reservation', {
 					default_departure.setHours(12,0,0);
 
 					if (frm.doc.departure < r.message) {
-						//frm.set_value('departure', default_departure);
-						frappe.msgprint("Actual Departure must be greater than Last Audit Date: " + r.message);// + ". Defaulted to Expected Departure.");
+						frm.set_value('departure', frappe.datetime.get_datetime_as_string(default_departure));
+						frappe.msgprint("Actual Departure must be greater than Last Audit Date: " + r.message + ". Defaulted to Expected Departure.");
 					}
 					else if (date_departure.setHours(0,0,0,0) <= date_arrival.setHours(0,0,0,0)) {
-						//frm.set_value('departure', default_departure);
-						frappe.msgprint("Actual Departure must be greater than Actual Arrival.");// Defaulted to Expected Departure.");
+						frm.set_value('departure', frappe.datetime.get_datetime_as_string(default_departure));
+						frappe.msgprint("Actual Departure must be greater than Actual Arrival. Defaulted to Expected Departure.");
 					}
 					else if (frm.doc.departure == null || frm.doc.departure == undefined || frm.doc.departure == '') {
-						//frm.set_value('departure', default_departure);
-						frappe.msgprint("Actual Departure cannot be empty.");// Defaulted to Expected Departure.");
+						frm.set_value('departure', frappe.datetime.get_datetime_as_string(default_departure));
+						frappe.msgprint("Actual Departure cannot be empty. Defaulted to Expected Departure.");
 					}
 					else {
 						frappe.call({
@@ -715,14 +715,16 @@ function autofill(frm) {
 	let expected_departure = new Date(frm.doc.expected_departure);
 	expected_arrival.setHours(now.getHours(), now.getMinutes(), now.getSeconds());
 	expected_departure.setHours(12, 0, 0);
+
+
 	if (frm.doc.guest_name === undefined || frm.doc.guest_name == null || frm.doc.guest_name === '') {
 		frm.set_value('guest_name', frm.doc.customer_id);
 	}
 	if (frm.doc.arrival === undefined || frm.doc.arrival == null || frm.doc.arrival === '') {
-		frm.set_value('arrival', expected_arrival);
+		frm.set_value('arrival', frappe.datetime.get_datetime_as_string(expected_arrival));
 	}
 	if (frm.doc.departure === undefined || frm.doc.departure == null || frm.doc.departure === '') {
-		frm.set_value('departure', expected_departure);
+		frm.set_value('departure', frappe.datetime.get_datetime_as_string(expected_departure));
 	}
 	if (frm.doc.actual_room_rate === undefined || frm.doc.actual_room_rate == null || parseFloat(frm.doc.actual_room_rate) == 0.0) {
 		frm.set_value('actual_room_rate', frm.doc.init_actual_room_rate);

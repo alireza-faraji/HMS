@@ -58,7 +58,6 @@ function search(doc) {
 							border: 1px solid #d1d8dd;\
 							text-align: center; \
 							font-weight: bold;\
-							background-color:#f7fafc;\
 						}\
 					</style>';
 
@@ -72,12 +71,18 @@ function search(doc) {
 			th.className = 'grid-static-col';
 			th.innerHTML = formatDate(start).split("-").reverse().join("-");
 			document.getElementById('table-calendar-title').appendChild(th);
-
+			wrapper
 			start.setDate(start.getDate() + 1);
 		}
+		var room_type=cur_frm.doc.room_type;
+		if (room_type==undefined)
+			room_type=null 
 
 		frappe.call({
 			method: 'hms.hms_module.doctype.hms_room.hms_room.get_all_hms_room',
+			args: {
+				room_type: room_type,
+			},
 			callback: (resp) => {
 				resp.message.forEach(elm => {
 					var tr = document.createElement('tr');
@@ -85,31 +90,39 @@ function search(doc) {
 
 					var td = document.createElement('td');
 					td.className = 'frozen';
-					td.innerHTML = elm.name;
+					td.style = 'background-color:#2490ef;';
+					let url = frappe.urllib.get_full_url('/app/hms-room/' + elm.name);
+					let htm='<a href="'+url+'">'+elm.name+'</a>'
+					td.innerHTML = htm;
 					tr.appendChild(td);
 
 					var td = document.createElement('td');
 					td.className = 'grid-static-col';
+					td.style = 'background-color:#ffc10770;';
 					td.innerHTML = elm.room_type;
 					tr.appendChild(td);
 
 					var td = document.createElement('td');
 					td.className = 'grid-static-col';
+					td.style = 'background-color:#ffc10770;';
 					td.innerHTML = elm.bed_type;
 					tr.appendChild(td);
 
 					var td = document.createElement('td');
 					td.className = 'grid-static-col';
+					td.style = 'background-color:#ffc10770;';
 					td.innerHTML = elm.allow_smoke;
 					tr.appendChild(td);
 
 					var td = document.createElement('td');
 					td.className = 'grid-static-col';
+					td.style = 'background-color:#ffc10770;';
 					td.innerHTML = elm.view;
 					tr.appendChild(td);
 
 					var td = document.createElement('td');
 					td.className = 'grid-static-col';
+					td.style = 'background-color:#ffc10770;';
 					td.innerHTML = elm.room_status;
 					tr.appendChild(td);
 
@@ -137,6 +150,10 @@ function search(doc) {
 							},
 							callback: (resp) => {
 								var td = document.createElement('td');
+								 if(resp.message=='')
+								 	td.style = 'background-color:#28a745;';
+								 else
+									td.style = 'background-color:#ff000063;';
 								td.className = 'grid-static-col';
 								td.innerHTML = resp.message;
 								td.ondblclick = function() {
@@ -180,6 +197,7 @@ function book_dialog(room_id, date, current_status) {
 				'fields': [
 					{'label': 'Start', 'fieldname': 'start', 'fieldtype': 'Date', 'default': date},
 					{'label': 'End', 'fieldname': 'end', 'fieldtype': 'Date', 'default': date},
+					{'label': __('Reservation'), 'fieldname': 'reservation', 'fieldtype': 'Button'},
 					{
 						'label': 'Availability',
 						'fieldname': 'availability',
@@ -204,7 +222,36 @@ function book_dialog(room_id, date, current_status) {
 						process_booking(room_id, form, 'new', '');
 					}
 				}
+				
 			});
+			dialog.fields_dict['reservation'].input.onclick = function() {
+				var form = dialog.get_values();
+				// let newDoc = frappe.new_doc("HMS Reservation");
+				// frappe.route_options = {
+				// 	"expected_arrival": form.start,
+				// 	"expected_departure": form.end,
+				// 	// "room_id":room_id
+				//   };
+				//   frappe.set_route("Form", newDoc.doctype, newDoc.name);
+
+				var params = {
+					"expected_arrival": form.start,
+				  	"expected_departure": form.end,
+				 	"room_id":room_id
+				};
+		
+				// Create a new document
+				frappe.model.with_doctype('HMS Reservation', function() {
+					var doc = frappe.model.get_new_doc('HMS Reservation');
+					
+					doc.expected_arrival=form.start;
+					doc.expected_departure=form.end;
+					doc.room_id=room_id;
+				 	frappe.set_route('Form', doc.doctype, doc.name);
+					 
+				});
+
+			};
 			dialog.show();
 		} else {
 			frappe.call({

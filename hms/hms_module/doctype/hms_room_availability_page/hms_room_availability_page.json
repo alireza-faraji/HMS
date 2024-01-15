@@ -8,6 +8,8 @@
   "start",
   "cb0",
   "end",
+  "column_break_hvo30",
+  "room_type",
   "sb0",
   "search_button",
   "sb1",
@@ -45,47 +47,57 @@
    "fieldname": "html",
    "fieldtype": "HTML",
    "label": "HTML"
+  },
+  {
+   "fieldname": "room_type",
+   "fieldtype": "Link",
+   "label": "Room Type",
+   "options": "HMS Room Type"
+  },
+  {
+   "fieldname": "column_break_hvo30",
+   "fieldtype": "Column Break"
   }
  ],
  "issingle": 1,
  "links": [],
- "modified": "2023-12-12 09:18:46.255132",
+ "modified": "2024-01-15 07:17:30.200422",
  "modified_by": "Administrator",
  "module": "Hms Module",
  "name": "HMS Room Availability Page",
  "owner": "Administrator",
  "permissions": [
-    {
-     "create": 1,
-     "delete": 1,
-     "email": 1,
-     "print": 1,
-     "read": 1,
-     "role": "System Manager",
-     "share": 1,
-     "write": 1
-    },
-    {
-     "create": 1,
-     "delete": 1,
-     "email": 1,
-     "print": 1,
-     "read": 1,
-     "role": "Housekeeping",
-     "share": 1,
-     "write": 1
-    },
-    {
-     "create": 1,
-     "delete": 1,
-     "email": 1,
-     "print": 1,
-     "read": 1,
-     "role": "Hotel Reservation User",
-     "share": 1,
-     "write": 1
-    }
-   ],
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Housekeeping",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Hotel Reservation User",
+   "share": 1,
+   "write": 1
+  }
+ ],
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

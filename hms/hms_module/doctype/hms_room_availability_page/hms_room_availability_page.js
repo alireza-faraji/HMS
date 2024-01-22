@@ -161,7 +161,7 @@ function search(doc) {
 							callback: (resp) => {
 								var td = document.createElement('td');
 								if (resp.message == '')
-									td.style = 'background-color:#28a745;';
+									td.style = 'background-color:#ffffff;';
 								else if (resp.message=='Under Construction')
 									td.style = 'background-color:#ffed0094;';
 								else if (resp.message=='Room Sold')

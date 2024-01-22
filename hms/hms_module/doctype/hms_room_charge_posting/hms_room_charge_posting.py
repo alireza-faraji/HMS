@@ -40,6 +40,9 @@ def populate_tobe_posted():
 	for item in folio_list:
 		reservation = frappe.get_doc('HMS Reservation', item.reservation_id)
 		if reservation.status == 'In House' or reservation.status == 'Finish':
+			if reservation.actual_room_id==None:
+				doc_link = '<a href="/app/hms-reservation/{0}">{1}</a>'.format(reservation.name,reservation.name)
+				frappe.throw('Actual Room Not Set In Reservation {0}'.format(doc_link))
 			room_charge_remark = 'Room Charge: Room Rate (Nett): ' + reservation.actual_room_id + " - " + \
 								 get_last_audit_date().strftime("%d-%m-%Y")
 			if not frappe.db.exists('HMS Folio Transaction',

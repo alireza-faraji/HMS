@@ -343,6 +343,11 @@ frappe.ui.form.on('HMS Reservation', {
 		if(frm.doc.expected_arrival!=undefined && frm.doc.expected_departure!=undefined)
 		manage_filters('room_type', '', frm.doc.expected_arrival);
 	},
+	customer_id: function(frm){
+		if (frm.doc.expected_departure && (frm.doc.__islocal== 1 || frm.doc.status == 'Reserved')) {
+			frm.set_value('total_night', calculate_nights(frm.doc.expected_arrival, frm.doc.expected_departure));
+		}
+	},
 	arrival: function(frm) {
 		frappe.call({
 			method: 'hms.hms_module.doctype.hms_audit_log.hms_audit_log.get_last_audit_date',

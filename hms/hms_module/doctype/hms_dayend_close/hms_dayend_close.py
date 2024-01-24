@@ -22,6 +22,7 @@ def is_there_open_dayend_close():
 
 @frappe.whitelist()
 def process_dayend_close(doc_id):
+	cost_center = frappe.db.get_single_value('Hms Module Setting', 'cost_center')
 	need_resolve_flag = False
 	# Create Journal Entry Pairing for Every Eligible HMS Folio Transactions
 	folio_list = frappe.get_all('HMS Folio', filters={'status': ['in', ['Open', 'Closed']], 'journal_entry_id_closed': ['=', '']})
@@ -73,6 +74,7 @@ def process_dayend_close(doc_id):
 					doc_jea_debit.party_type = 'Customer'
 					doc_jea_debit.party = customer_name
 					doc_jea_debit.user_remark = remark
+					doc_jea_debit.cost_center = cost_center
 
 					doc_jea_credit = frappe.new_doc('Journal Entry Account')
 					doc_jea_credit.account = trx.credit_account
@@ -81,7 +83,7 @@ def process_dayend_close(doc_id):
 					doc_jea_credit.party_type = 'Customer'
 					doc_jea_credit.party = customer_name
 					doc_jea_credit.user_remark = remark
-
+					doc_jea_credit.cost_center = cost_center
 					doc_je.append('accounts', doc_jea_debit)
 					doc_je.append('accounts', doc_jea_credit)
 
@@ -119,7 +121,7 @@ def process_dayend_close(doc_id):
 					doc_je.total_amount_currency = frappe.get_doc('Global Defaults').default_currency
 					doc_je.remark = closed_folio_remark
 					doc_je.user_remark = closed_folio_remark
-
+					
 					for trx in closed_trx_list:
 						if trx.flag == 'Debit':
 							doc_jea_debit = frappe.new_doc('Journal Entry Account')
@@ -129,6 +131,7 @@ def process_dayend_close(doc_id):
 							doc_jea_debit.party_type = 'Customer'
 							doc_jea_debit.party = cust_name
 							doc_jea_debit.user_remark = closed_folio_remark
+							doc_jea_debit.cost_center = cost_center
 							doc_je.append('accounts', doc_jea_debit)
 						elif trx.flag == 'Credit':
 							doc_jea_credit = frappe.new_doc('Journal Entry Account')
@@ -138,6 +141,7 @@ def process_dayend_close(doc_id):
 							doc_jea_credit.party_type = 'Customer'
 							doc_jea_credit.party = cust_name
 							doc_jea_credit.user_remark = closed_folio_remark
+							doc_jea_credit.cost_center = cost_center
 							doc_je.append('accounts', doc_jea_credit)
 
 					doc_je.save()
@@ -328,6 +332,8 @@ def create_journal_entry(title, remark, debit_account, credit_account, amount):
 	doc_jea_debit.party_type = 'Customer'
 	doc_jea_debit.party = customer_name
 	doc_jea_debit.user_remark = remark
+	cost_center = frappe.db.get_single_value('Hms Module Setting', 'cost_center')
+	doc_jea_debit.cost_center = cost_center
 
 	doc_jea_credit = frappe.new_doc('Journal Entry Account')
 	doc_jea_credit.account = credit_account
@@ -336,6 +342,7 @@ def create_journal_entry(title, remark, debit_account, credit_account, amount):
 	doc_jea_credit.party_type = 'Customer'
 	doc_jea_credit.party = customer_name
 	doc_jea_credit.user_remark = remark
+	doc_jea_credit.cost_center = cost_center
 
 	doc_je.append('accounts', doc_jea_debit)
 	doc_je.append('accounts', doc_jea_credit)

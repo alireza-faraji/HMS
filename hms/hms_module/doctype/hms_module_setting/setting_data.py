@@ -897,7 +897,7 @@ def get_account():
 			"account_number": "2110.005",
 			"is_group": "0",
 			"account_currency": "IQD",
-			"account_type": "Payable",
+			"account_type": "Receivable",
 			"root_type": "Liability"
 		},
 		{

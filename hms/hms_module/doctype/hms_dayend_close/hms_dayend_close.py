@@ -86,10 +86,12 @@ def process_dayend_close(doc_id):
 					doc_jea_credit.cost_center = cost_center
 					doc_je.append('accounts', doc_jea_debit)
 					doc_je.append('accounts', doc_jea_credit)
-
-					doc_je.save()
-					doc_je.submit()
-
+#					print(trx.amount)
+					if trx.amount!=0:
+						doc_je.save()
+						doc_je.submit()
+					else:
+						trx.is_void=1
 					trx.journal_entry_id = doc_je.name
 					trx.save()
 

@@ -145,6 +145,7 @@ function make_mandatory(frm) {
 function make_read_only(frm) {
 	frappe.db.get_value('HMS Folio', frm.doc.parent, 'status').then((r) => {
 		if (r.message.status != 'Open') {
+			//if ((r.message.status != 'Open')||(frm.doc.jurnal_entry_id!= undefined)||(frm.doc.is_void==1)) {
 			frm.set_df_property('void_transaction', 'hidden', 1);
 			frm.set_df_property('flag', 'read_only', 1);
 			frm.set_df_property('transaction_type', 'read_only', 1);
@@ -154,4 +155,5 @@ function make_read_only(frm) {
 			frm.set_df_property('remark', 'read_only', 1);
 		}
 	});
+	ddsds
 }

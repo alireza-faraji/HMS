@@ -263,6 +263,7 @@
   {
    "fieldname": "fix_db",
    "fieldtype": "Button",
+   "hidden": 1,
    "label": "Fix Db"
   },
   {
@@ -275,7 +276,7 @@
  ],
  "issingle": 1,
  "links": [],
- "modified": "2024-02-11 11:47:57.154575",
+ "modified": "2024-02-11 11:59:36.096387",
  "modified_by": "Administrator",
  "module": "Hms Module",
  "name": "Hms Module Setting",

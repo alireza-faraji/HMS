@@ -12,6 +12,10 @@ frappe.ui.form.on('Hms Module Setting', {
 				});
 			});
 		}
+	},fix_db: function(frm) {
+		frappe.call({
+			method: 'hms.hms_module.doctype.hms_module_setting.hms_module_setting.fix_db',
+		});
 	},
 	folio_transaction_type_generator: function(frm) {
 		frappe.call({

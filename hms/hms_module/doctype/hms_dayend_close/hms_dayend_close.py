@@ -6,6 +6,7 @@ from __future__ import unicode_literals
 
 import frappe
 import datetime
+from frappe import _, msgprint, throw
 from frappe.model.document import Document
 from hms.hms_module.doctype.hms_audit_log.hms_audit_log import get_last_audit_date
 from hms.hms_module.doctype.hms_folio.hms_folio import check_void_request
@@ -22,6 +23,14 @@ def is_there_open_dayend_close():
 
 @frappe.whitelist()
 def process_dayend_close(doc_id):
+
+	date1=get_last_audit_date()
+	check_in_time = frappe.db.get_single_value('Hms Module Setting', 'check_in_time')
+	date = datetime.datetime(year=date1.year,month=date1.month,day=date1.day)+check_in_time
+	current_day = datetime.datetime.now().day
+	if(current_day==date1.day):
+			frappe.throw(_("You Do not Close current Day"))
+
 	cost_center = frappe.db.get_single_value('Hms Module Setting', 'cost_center')
 	need_resolve_flag = False
 	# Create Journal Entry Pairing for Every Eligible HMS Folio Transactions

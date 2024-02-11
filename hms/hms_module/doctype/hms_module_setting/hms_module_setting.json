@@ -30,6 +30,7 @@
   "website_url",
   "bank_account",
   "cost_center",
+  "check_in_time",
   "hms_settlement_settings_sb",
   "hms_settlement_settings",
   "hms_membership_card_section",
@@ -42,6 +43,7 @@
   "cb4",
   "hms_module_account_generator",
   "folio_transaction_type_generator",
+  "fix_db",
   "supervisor_passcode"
  ],
  "fields": [
@@ -257,11 +259,23 @@
    "label": "Cost Center",
    "options": "Cost Center",
    "reqd": 1
+  },
+  {
+   "fieldname": "fix_db",
+   "fieldtype": "Button",
+   "label": "Fix Db"
+  },
+  {
+   "default": "14:00:00",
+   "fieldname": "check_in_time",
+   "fieldtype": "Time",
+   "label": "Check In Time",
+   "reqd": 1
   }
  ],
  "issingle": 1,
  "links": [],
- "modified": "2024-01-23 16:50:40.354204",
+ "modified": "2024-02-11 11:47:57.154575",
  "modified_by": "Administrator",
  "module": "Hms Module",
  "name": "Hms Module Setting",

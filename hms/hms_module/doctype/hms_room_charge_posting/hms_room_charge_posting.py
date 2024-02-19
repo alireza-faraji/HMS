@@ -52,27 +52,28 @@ def populate_tobe_posted():
 		reservation = frappe.get_doc('HMS Reservation', item.reservation_id)
 		res_arrival=reservation.arrival
 		res_departure=reservation.departure
-		hour_offset = (res_arrival-date).total_seconds() / 3600 
-		#departure_offset=(res_departure-late).total_seconds() / 3600 
-		
-		if hour_offset<24:# and hour_offset>-24:#and departure_offset>0:# and departure_offset<2:
-			print(hour_offset,reservation.name)
-			if reservation.status == 'In House' or reservation.status == 'Finish':
-				if reservation.actual_room_id==None:
-					doc_link = '<a href="/app/hms-reservation/{0}">{1}</a>'.format(reservation.name,reservation.name)
-					frappe.throw('Actual Room Not Set In Reservation {0}'.format(doc_link))
-				room_charge_remark = 'Room Charge: Room Rate (Nett): ' + reservation.actual_room_id + " - " + \
-									get_last_audit_date().strftime("%d-%m-%Y")
-				if not frappe.db.exists('HMS Folio Transaction',
-									{'parent': item.name, 'transaction_type': 'Room Charge', 'remark': room_charge_remark, 'is_void': 0}):
-					tobe_posted = frappe.new_doc('HMS Room Charge To Be Posted')
-					tobe_posted.reservation_id = item.reservation_id
-					tobe_posted.folio_id = item.name
-					tobe_posted.room_id = reservation.actual_room_id
-					tobe_posted.customer_id = reservation.customer_id
-					tobe_posted.room_rate_id = reservation.room_rate
-					tobe_posted.actual_room_rate = reservation.actual_room_rate
-					tobe_posted_list.append(tobe_posted)
+		if reservation.status == 'In House' or reservation.status == 'Finish':
+			hour_offset = (res_arrival-date).total_seconds() / 3600 
+			#departure_offset=(res_departure-late).total_seconds() / 3600 
+			
+			if hour_offset<24:# and hour_offset>-24:#and departure_offset>0:# and departure_offset<2:
+				print(hour_offset,reservation.name)
+				if reservation.status == 'In House' or reservation.status == 'Finish':
+					if reservation.actual_room_id==None:
+						doc_link = '<a href="/app/hms-reservation/{0}">{1}</a>'.format(reservation.name,reservation.name)
+						frappe.throw('Actual Room Not Set In Reservation {0}'.format(doc_link))
+					room_charge_remark = 'Room Charge: Room Rate (Nett): ' + reservation.actual_room_id + " - " + \
+										get_last_audit_date().strftime("%d-%m-%Y")
+					if not frappe.db.exists('HMS Folio Transaction',
+										{'parent': item.name, 'transaction_type': 'Room Charge', 'remark': room_charge_remark, 'is_void': 0}):
+						tobe_posted = frappe.new_doc('HMS Room Charge To Be Posted')
+						tobe_posted.reservation_id = item.reservation_id
+						tobe_posted.folio_id = item.name
+						tobe_posted.room_id = reservation.actual_room_id
+						tobe_posted.customer_id = reservation.customer_id
+						tobe_posted.room_rate_id = reservation.room_rate
+						tobe_posted.actual_room_rate = reservation.actual_room_rate
+						tobe_posted_list.append(tobe_posted)
 	return tobe_posted_list
 
 @frappe.whitelist()

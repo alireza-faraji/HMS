@@ -144,7 +144,7 @@
    "in_list_view": 1,
    "label": "Status",
    "options": "Open\nClosed\nCancel",
-   "permlevel": 1
+   "read_only": 1
   },
   {
    "fieldname": "cb1",
@@ -228,7 +228,7 @@
   }
  ],
  "links": [],
- "modified": "2024-02-19 17:19:43.973083",
+ "modified": "2024-02-19 19:04:02.620034",
  "modified_by": "Administrator",
  "module": "Hms Module",
  "name": "HMS Folio",
@@ -244,30 +244,6 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Administrator",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "permlevel": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Administrator",
    "share": 1,
    "write": 1
   }

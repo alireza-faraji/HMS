@@ -93,14 +93,16 @@ def process_dayend_close(doc_id):
 					doc_jea_credit.party = customer_name
 					doc_jea_credit.user_remark = remark
 					doc_jea_credit.cost_center = cost_center
-					doc_je.append('accounts', doc_jea_debit)
-					doc_je.append('accounts', doc_jea_credit)
-#					print(trx.amount)
 					if trx.amount!=0:
-						doc_je.save()
-						doc_je.submit()
+						doc_je.append('accounts', doc_jea_debit)
+						doc_je.append('accounts', doc_jea_credit)
 					else:
-						trx.is_void=1
+						trx.is_void=1					
+# print(trx.amount)
+					
+					doc_je.save()
+					doc_je.submit()
+					
 					trx.journal_entry_id = doc_je.name
 					trx.save()
 
@@ -112,6 +114,8 @@ def process_dayend_close(doc_id):
 			'journal_entry_id_closed': ['=', '']
 		})
 		for item in closed_folio_list:
+			if item.name=='F-00117':
+				print('aaaaaaaaaaaaaaaa')
 			doc_folio = frappe.get_doc('HMS Folio', item.name)
 			cust_name = doc_folio.customer_id
 			# Get all Closed folio with close date == last audit date
@@ -143,7 +147,8 @@ def process_dayend_close(doc_id):
 							doc_jea_debit.party = cust_name
 							doc_jea_debit.user_remark = closed_folio_remark
 							doc_jea_debit.cost_center = cost_center
-							doc_je.append('accounts', doc_jea_debit)
+							if trx.amount!=0:
+								doc_je.append('accounts', doc_jea_debit)
 						elif trx.flag == 'Credit':
 							doc_jea_credit = frappe.new_doc('Journal Entry Account')
 							doc_jea_credit.account = trx.credit_account
@@ -153,17 +158,15 @@ def process_dayend_close(doc_id):
 							doc_jea_credit.party = cust_name
 							doc_jea_credit.user_remark = closed_folio_remark
 							doc_jea_credit.cost_center = cost_center
-							doc_je.append('accounts', doc_jea_credit)
+							if trx.amount!=0:
+								doc_je.append('accounts', doc_jea_credit)
 
 					#print('------------------------\n')
 					#print(closed_trx_list)
-					if trx.amount!=0:
-						doc_je.save()
-						doc_je.submit()
-					else:
-						trx.is_void=1
-						print(trx)
-						
+					
+					doc_je.save()
+					doc_je.submit()
+					
 					doc_folio.journal_entry_id_closed = doc_je.name
 					doc_folio.save()
 

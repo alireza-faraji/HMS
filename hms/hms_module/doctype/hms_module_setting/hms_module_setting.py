@@ -19,15 +19,18 @@ class HmsModuleSetting(Document):
 def fix_db():
 	#default_company = frappe.get_doc("Global Defaults").default_company
 	#create_account('Other A/R', '1130.000', '1133.000', 1, 'IQD', '', 'Asset', default_company)
-	#frappe.db.sql("""update `tabHMS Folio` set status=%s""","Open")
-	frappe.db.sql("""delete from `tabHMS Folio Transaction` where transaction_type=%s""","Room Charge")
-	frappe.db.sql("""delete from `tabHMS Folio Transaction` where transaction_type=%s""","Breakfast Charge")
+	#frappe.db.sql(update `tabHMS Folio` set status=%s""","Open")
+	#frappe.db.sql("""delete from `tabHMS Folio Transaction` where transaction_type=%s""","Room Charge")
+	#frappe.db.sql("""delete from `tabHMS Folio Transaction` where transaction_type=%s""","Breakfast Charge")
 	##frappe.db.sql("""update `tabHMS Folio` set status=%s where status=%s""","In House","Finish")
 	
 	#frappe.db.sql("""\
 	#		update `tabUser` set email=%s
 	#		where name=%s""", (newdn, newdn))
-	frappe.msgprint("Fixed Done Success")
+	frappe.db.sql("""delete from `tabGL Entry` where voucher_type='Sales Invoice' and account = '5111 - Cost of Goods Sold - A'""")
+	frappe.db.sql("""delete from `tabGL Entry` where voucher_type='Sales Invoice' and account = '1410 - Stock In Hand - A'""")
+	count=frappe.db.sql("""SELECT count(name)as count from `tabGL Entry` where voucher_type='Sales Invoice' and account = '5111 - Cost of Goods Sold - A'""")
+	frappe.msgprint("count",count)
 def generate_folio_transaction_type():
 	default_company = frappe.get_doc("Global Defaults").default_company
 	create_account('Other A/R', '1130.000', '1133.000', 1, 'IQD', '', 'Asset', default_company)

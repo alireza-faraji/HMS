@@ -263,8 +263,8 @@
   {
    "fieldname": "fix_db",
    "fieldtype": "Button",
-   "hidden": 1,
-   "label": "Fix Db"
+   "label": "Fix Db",
+   "permlevel": 1
   },
   {
    "default": "14:00:00",
@@ -276,7 +276,7 @@
  ],
  "issingle": 1,
  "links": [],
- "modified": "2024-02-11 11:59:36.096387",
+ "modified": "2024-03-06 14:36:16.552196",
  "modified_by": "Administrator",
  "module": "Hms Module",
  "name": "Hms Module Setting",
@@ -289,6 +289,26 @@
    "print": 1,
    "read": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Administrator",
    "share": 1,
    "write": 1
   }

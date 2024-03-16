@@ -142,16 +142,16 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Reports",
-   "link_count": 7,
+   "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "\u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u0631\u064a\u0633\u0628\u0634\u0646",
+   "label": " \u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u0631\u064a\u0633\u0628\u0634\u0646",
    "link_count": 0,
-   "link_to": "\u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u0631\u064a\u0633\u0628\u0634\u0646",
+   "link_to": "HMS General Ledger",
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
@@ -169,55 +169,15 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Report PNL",
-   "link_count": 0,
-   "link_to": "Report PNL",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Daily Flash Report",
-   "link_count": 0,
-   "link_to": "Daily Flash Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
    "label": "Room Discrepancy",
    "link_count": 0,
    "link_to": "Room Discrepancy",
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HMS Accounts Payable Summary",
-   "link_count": 0,
-   "link_to": "HMS Accounts Payable Summary",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HMS Accounts Receivable Summary",
-   "link_count": 0,
-   "link_to": "HMS Accounts Receivable Summary",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
   }
  ],
- "modified": "2024-03-06 17:14:43.230962",
+ "modified": "2024-03-16 15:27:18.238282",
  "modified_by": "Administrator",
  "module": "Hms Module",
  "name": "Hotel Management System",

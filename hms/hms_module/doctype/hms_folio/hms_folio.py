@@ -26,6 +26,22 @@ def create_folio(reservation_id):
 		doc.close = reservation.expected_departure
 		doc.insert()
 
+@frappe.whitelist()
+def get_customer_and_folio_with_room_number(room_name):
+	try:
+		Reservation = frappe.get_last_doc('HMS Reservation', filters={"status": "In House","actual_room_id":room_name})
+		folio=frappe.db.get_value('HMS Folio', {'reservation_id': Reservation.name})
+		return{
+			"status":"ok",
+			"customer_name":Reservation.customer_id,
+			"folio_name":folio
+		}
+	except Exception as e:
+		return{
+		"status":"error",
+		}
+	
+
 def update_close_by_reservation(reservation_id):
 	folio_list = frappe.get_all('HMS Folio', filters={'reservation_id': reservation_id})
 	reservation = frappe.get_doc('HMS Reservation', reservation_id)

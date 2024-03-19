@@ -28,13 +28,13 @@ def get_result(filters):
 	return result
 
 def get_entries(filters):
-	select_fields = """`tabHMS Folio Transaction`.owner,`tabHMS Folio Transaction`.creation,`tabHMS Folio Transaction`.modified_by,`tabHMS Folio Transaction`.transaction_type, `tabHMS Folio Transaction`.amount, `tabHMS Folio Transaction`.parent,`tabHMS Folio`.customer_id """
-	#select_fields = """owner,creation"""
+	select_fields = """`tabHMS Folio Transaction`.owner,`tabHMS Folio Transaction`.audit_date,`tabHMS Folio Transaction`.modified_by,`tabHMS Folio Transaction`.transaction_type, `tabHMS Folio Transaction`.amount, `tabHMS Folio Transaction`.parent,`tabHMS Folio`.customer_id """
+	#select_fields = """owner,audit_date"""
 
 	# if filters.get("show_remarks"):
 	# 	select_fields += """,remarks"""
 
-	order_by_statement = "order by `tabHMS Folio Transaction`.owner,`tabHMS Folio Transaction`.creation"
+	order_by_statement = "order by `tabHMS Folio Transaction`.owner,`tabHMS Folio Transaction`.audit_date"
 
 
 		
@@ -66,10 +66,10 @@ def get_conditions(filters):
 	conditions.append("`tabHMS Folio Transaction`.transaction_type = 'Payment'")
 
 	if filters.get("from_date"):
-	 	conditions.append(" `tabHMS Folio Transaction`.creation >= %(from_date)s")
+	 	conditions.append(" `tabHMS Folio Transaction`.audit_date >= %(from_date)s")
 
 	if filters.get("to_date"):
-	 	conditions.append(" `tabHMS Folio Transaction`.creation <= %(to_date)s")
+	 	conditions.append(" `tabHMS Folio Transaction`.audit_date <= %(to_date)s")
 	
 	if filters.get("user"):
 	 	conditions.append(" `tabHMS Folio Transaction`.owner = %(user)s")
@@ -88,11 +88,12 @@ def get_columns(filters):
 	
 	{"label": _("Created By"), "fieldname": "owner", "fieldtype": "Data", "width": 250},
 	{
-		"label": _("creation"),
-		"fieldname": "creation",
+		"label": _("Audit Date"),
+		"fieldname": "audit_date",
 		"fieldtype": "DateTime",
-		"width": 170,
+		"width": 140,
 	},
+	
 	{"label": _("Amount"), "fieldname": "amount", "fieldtype": "Float", "width": 150},
 	{"label": _("Folio"), "fieldname": "parent", "fieldtype": "Link","options":"HMS Folio", "width": 150},
 	{"label": _("Customer"), "fieldname": "customer_id", "fieldtype": "Link","options":"Customer", "width": 200},

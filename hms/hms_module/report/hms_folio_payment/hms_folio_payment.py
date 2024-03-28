@@ -64,6 +64,7 @@ def get_total(filters,entries):
 def get_conditions(filters):
 	conditions = []
 	conditions.append("`tabHMS Folio Transaction`.transaction_type = 'Payment'")
+	conditions.append("is_void = 0")
 
 	if filters.get("from_date"):
 	 	conditions.append(" `tabHMS Folio Transaction`.audit_date >= %(from_date)s")

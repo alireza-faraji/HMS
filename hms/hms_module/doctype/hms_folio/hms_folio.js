@@ -447,8 +447,8 @@ function add_payment(frm) {
 			});
 			d.set_primary_action(__('Save'), () => {
 				let remark_to_save = '';
-				if (d.get_values.remark !== undefined) {
-					remark_to_save = d.get_values.remark;
+				if (d.get_values().remark !== undefined) {
+					remark_to_save = d.get_values().remark;
 				}
 				frappe.call({
 					method: 'hms.hms_module.doctype.hms_folio_transaction.hms_folio_transaction.add_payment',
@@ -517,8 +517,8 @@ function add_refund(frm) {
 	}
 	d.set_primary_action(__('Save'), () => {
 		let remark_to_save = '';
-		if (d.get_values.remark !== undefined) {
-			remark_to_save = d.get_values.remark;
+		if (d.get_values().remark !== undefined) {
+			remark_to_save = d.get_values().remark;
 		}
 		frappe.call({
 			method: 'hms.hms_module.doctype.hms_folio_transaction.hms_folio_transaction.add_charge',

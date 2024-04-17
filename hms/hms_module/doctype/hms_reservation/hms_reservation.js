@@ -128,9 +128,12 @@ frappe.ui.form.on('HMS Reservation', {
 												if (r.message) {
 													console.log(r.message);
 												}
+												frappe.set_route('Form', 'HMS Reservation', frm.doc.name);
+												frm.reload_doc();
 											}
 										});
-										frappe.set_route('Form', 'HMS Reservation', frm.doc.name);
+										// frappe.set_route('Form', 'HMS Reservation', frm.doc.name);
+										// frm.reload_doc();
 									}
 									else {
 										frappe.msgprint(r.message);

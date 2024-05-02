@@ -46,6 +46,8 @@ def process_dayend_close(doc_id):
 	else:
 		print('Folio List Size: ',len(folio_list))
 		for item in folio_list:
+			if item.name=='F-00753':
+				print(item)
 			print(datetime.datetime.now(),': Folio ', item.name)
 			doc_folio = frappe.get_doc('HMS Folio', item.name)
 			if doc_folio.reservation_id:
@@ -99,9 +101,9 @@ def process_dayend_close(doc_id):
 					else:
 						trx.is_void=1					
 # print(trx.amount)
-					
-					doc_je.save()
-					doc_je.submit()
+					if doc_je.accounts!=[]:
+						doc_je.save()
+						doc_je.submit()
 					
 					trx.journal_entry_id = doc_je.name
 					trx.save()
@@ -114,7 +116,7 @@ def process_dayend_close(doc_id):
 			'journal_entry_id_closed': ['=', '']
 		})
 		for item in closed_folio_list:
-			if item.name=='F-00117':
+			if item.name=='F-00753':
 				print('aaaaaaaaaaaaaaaa')
 			doc_folio = frappe.get_doc('HMS Folio', item.name)
 			cust_name = doc_folio.customer_id

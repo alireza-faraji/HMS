@@ -165,9 +165,9 @@ def process_dayend_close(doc_id):
 
 					#print('------------------------\n')
 					#print(closed_trx_list)
-					
-					doc_je.save()
-					doc_je.submit()
+					if doc_je.accounts!=[]:
+						doc_je.save()
+						doc_je.submit()
 					
 					doc_folio.journal_entry_id_closed = doc_je.name
 					doc_folio.save()

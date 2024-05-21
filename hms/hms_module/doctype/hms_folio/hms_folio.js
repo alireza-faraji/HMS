@@ -446,28 +446,33 @@ function add_payment(frm) {
 				fields: fields,
 			});
 			d.set_primary_action(__('Save'), () => {
-				let remark_to_save = '';
-				if (d.get_values().remark !== undefined) {
-					remark_to_save = d.get_values().remark;
-				}
-				frappe.call({
-					method: 'hms.hms_module.doctype.hms_folio_transaction.hms_folio_transaction.add_payment',
-					args: {
-						transaction_type: d.get_values().transaction_type,
-						amount: d.get_values().amount,
-						mode_of_payment: d.get_values().mode_of_payment,
-						sub_folio: d.get_values().sub_folio,
-						remark: remark_to_save,
-						parent: frm.doc.name
-					},
-					callback: (r) => {
-						if (r.message) {
-							frappe.msgprint('Payment with ID ' + r.message + " successfully added");
-							frm.reload_doc();
-						}
+				if(d.get_values().amount>0){
+					let remark_to_save = '';
+					if (d.get_values().remark !== undefined) {
+						remark_to_save = d.get_values().remark;
 					}
-				});
-				d.hide();
+					frappe.call({
+						method: 'hms.hms_module.doctype.hms_folio_transaction.hms_folio_transaction.add_payment',
+						args: {
+							transaction_type: d.get_values().transaction_type,
+							amount: d.get_values().amount,
+							mode_of_payment: d.get_values().mode_of_payment,
+							sub_folio: d.get_values().sub_folio,
+							remark: remark_to_save,
+							parent: frm.doc.name
+						},
+						callback: (r) => {
+							if (r.message) {
+								frappe.msgprint('Payment with ID ' + r.message + " successfully added");
+								frm.reload_doc();
+							}
+						}
+					});
+					d.hide();
+				}else{
+					frappe.msgprint('The Amount must be greater than 0');
+				
+				}
 			});
 			d.show();
 		}
